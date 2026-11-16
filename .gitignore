@@ -1,0 +1,7 @@
+.env
+*.key
+__pycache__/
+.venv/
+data/papers/
+data/fixture_papers/
+data/fixture_pages.json

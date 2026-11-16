@@ -1,0 +1,61 @@
+{
+ "_meta": {
+  "calibrated": true,
+  "source": "probe_real.jsonl",
+  "assumed": [
+   "openai/gpt-oss-120b: no slow calls seen in 14; p_slow=1% assumed",
+   "openai/gpt-oss-120b: capacity=6 and load_alpha=0.8 are assumptions (free tier cannot be loaded enough to measure them)",
+   "openai/gpt-oss-20b: capacity=6 and load_alpha=0.8 are assumptions (free tier cannot be loaded enough to measure them)"
+  ]
+ },
+ "openai/gpt-oss-120b": {
+  "rpm": 30,
+  "tpm": 8000,
+  "rpd": 1000,
+  "tpd": 200000,
+  "ttft_mu_ms": 371.1,
+  "ttft_sigma": 0.315,
+  "prefill_ms_per_1k": 100.14,
+  "decode_tok_s": 737.8,
+  "capacity": 6,
+  "load_alpha": 0.8,
+  "p_slow": 0.01,
+  "slow_mult": [
+   4.0,
+   12.0
+  ],
+  "p_error": 0.005,
+  "p_stall": 0.01,
+  "stall_s": [
+   3.0,
+   8.0
+  ],
+  "chunk_tokens": 4,
+  "reasoning_tokens": 0.0
+ },
+ "openai/gpt-oss-20b": {
+  "rpm": 30,
+  "tpm": 8000,
+  "rpd": 1000,
+  "tpd": 200000,
+  "ttft_mu_ms": 445.5,
+  "ttft_sigma": 0.527,
+  "prefill_ms_per_1k": 44.0,
+  "decode_tok_s": 1193.0,
+  "capacity": 6,
+  "load_alpha": 0.8,
+  "p_slow": 0.071,
+  "slow_mult": [
+   3.77,
+   3.77
+  ],
+  "p_error": 0.005,
+  "p_stall": 0.01,
+  "stall_s": [
+   3.0,
+   8.0
+  ],
+  "chunk_tokens": 4,
+  "reasoning_tokens": 0.0
+ }
+}

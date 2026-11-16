@@ -1,0 +1,10 @@
+{
+ "openai/gpt-oss-20b": {
+  "rpd": 1000,
+  "tpm": 8000
+ },
+ "openai/gpt-oss-120b": {
+  "rpd": 1000,
+  "tpm": 8000
+ }
+}

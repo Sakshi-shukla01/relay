@@ -1,0 +1,577 @@
+request_id,scenario,source,start_time,first_token_ms,total_ms,status,retries,tokens_in,tokens_out,retrieval_setting,answer_grade,question_id,level,drafter,queue_wait_ms,model_ttft_ms,model_calls,cost_usd,patience_ms,gave_up
+probe0000,probe,real,2026-11-11T10:35:10.025+00:00,1680.7,1711.1,ok,0,83,59,none (probe),,latency,,openai/gpt-oss-20b,0,1680.7,1,0.000024,,0
+probe0001,probe,real,2026-11-11T10:35:15.748+00:00,400.5,457.1,ok,0,1083,67,none (probe),,latency,,openai/gpt-oss-20b,0,400.5,1,0.000101,,0
+probe0002,probe,real,2026-11-11T10:35:20.219+00:00,197.3,248.1,ok,0,83,59,none (probe),,latency,,openai/gpt-oss-20b,0,197.3,1,0.000024,,0
+probe0003,probe,real,2026-11-11T10:35:24.477+00:00,608.1,686.9,ok,0,1083,67,none (probe),,latency,,openai/gpt-oss-20b,0,608.1,1,0.000101,,0
+probe0004,probe,real,2026-11-11T10:35:29.181+00:00,695.6,755.4,ok,0,83,59,none (probe),,latency,,openai/gpt-oss-20b,0,695.6,1,0.000024,,0
+probe0005,probe,real,2026-11-11T10:35:33.952+00:00,284.2,333.1,ok,0,1083,54,none (probe),,latency,,openai/gpt-oss-20b,0,284.2,1,0.000097,,0
+probe0006,probe,real,2026-11-11T10:35:38.299+00:00,445.5,462.8,ok,0,83,59,none (probe),,latency,,openai/gpt-oss-20b,0,445.5,1,0.000024,,0
+probe0007,probe,real,2026-11-11T10:35:42.771+00:00,194.8,237.6,ok,0,1083,54,none (probe),,latency,,openai/gpt-oss-20b,0,194.8,1,0.000097,,0
+probe0008,probe,real,2026-11-11T10:35:47.013+00:00,330.5,375.9,ok,0,83,59,none (probe),,latency,,openai/gpt-oss-20b,0,330.5,1,0.000024,,0
+probe0009,probe,real,2026-11-11T10:35:51.407+00:00,489.5,547.6,ok,0,1083,67,none (probe),,latency,,openai/gpt-oss-20b,0,489.5,1,0.000101,,0
+probe0010,probe,real,2026-11-11T10:35:55.959+00:00,1010.9,1011.6,ok,0,83,59,none (probe),,latency,,openai/gpt-oss-20b,0,1010.9,1,0.000024,,0
+probe0011,probe,real,2026-11-11T10:36:00.981+00:00,492.0,536.2,ok,0,1083,67,none (probe),,latency,,openai/gpt-oss-20b,0,492.0,1,0.000101,,0
+probe0012,probe,real,2026-11-11T10:36:05.525+00:00,358.4,404.2,ok,0,83,59,none (probe),,latency,,openai/gpt-oss-20b,0,358.4,1,0.000024,,0
+probe0013,probe,real,2026-11-11T10:36:09.932+00:00,803.9,861.1,ok,0,1083,67,none (probe),,latency,,openai/gpt-oss-20b,0,803.9,1,0.000101,,0
+probe0014,probe,real,2026-11-11T10:36:14.801+00:00,497.6,526.9,ok,0,83,55,none (probe),,latency,,openai/gpt-oss-120b,0,497.6,1,0.000045,,0
+probe0015,probe,real,2026-11-11T10:36:21.838+00:00,261.2,346.4,ok,0,1083,57,none (probe),,latency,,openai/gpt-oss-120b,0,261.2,1,0.000197,,0
+probe0016,probe,real,2026-11-11T10:36:28.694+00:00,362.1,491.3,ok,0,83,75,none (probe),,latency,,openai/gpt-oss-120b,0,362.1,1,0.000057,,0
+probe0017,probe,real,2026-11-11T10:36:35.695+00:00,288.5,310.3,ok,0,1083,57,none (probe),,latency,,openai/gpt-oss-120b,0,288.5,1,0.000197,,0
+probe0018,probe,real,2026-11-11T10:36:42.517+00:00,337.6,461.9,ok,0,83,72,none (probe),,latency,,openai/gpt-oss-120b,0,337.6,1,0.000056,,0
+probe0019,probe,real,2026-11-11T10:36:49.495+00:00,389.9,474.5,ok,0,1083,57,none (probe),,latency,,openai/gpt-oss-120b,0,389.9,1,0.000197,,0
+probe0020,probe,real,2026-11-11T10:36:56.483+00:00,813.2,941.3,ok,0,83,75,none (probe),,latency,,openai/gpt-oss-120b,0,813.2,1,0.000057,,0
+probe0021,probe,real,2026-11-11T10:37:03.937+00:00,733.5,820.0,ok,0,1083,57,none (probe),,latency,,openai/gpt-oss-120b,0,733.5,1,0.000197,,0
+probe0022,probe,real,2026-11-11T10:37:11.265+00:00,371.1,504.6,ok,0,83,75,none (probe),,latency,,openai/gpt-oss-120b,0,371.1,1,0.000057,,0
+probe0023,probe,real,2026-11-11T10:37:18.275+00:00,696.9,783.3,ok,0,1083,57,none (probe),,latency,,openai/gpt-oss-120b,0,696.9,1,0.000197,,0
+probe0024,probe,real,2026-11-11T10:37:25.566+00:00,287.3,335.3,ok,0,83,75,none (probe),,latency,,openai/gpt-oss-120b,0,287.3,1,0.000057,,0
+probe0025,probe,real,2026-11-11T10:37:32.408+00:00,471.3,558.0,ok,0,1083,57,none (probe),,latency,,openai/gpt-oss-120b,0,471.3,1,0.000197,,0
+probe0026,probe,real,2026-11-11T10:37:39.480+00:00,429.0,515.0,ok,0,83,55,none (probe),,latency,,openai/gpt-oss-120b,0,429.0,1,0.000045,,0
+probe0027,probe,real,2026-11-11T10:37:46.511+00:00,490.7,575.7,ok,0,1083,57,none (probe),,latency,,openai/gpt-oss-120b,0,490.7,1,0.000197,,0
+probe0028,probe,real,2026-11-11T10:46:59.698+00:00,,551.3,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0029,probe,real,2026-11-11T10:46:59.679+00:00,,570.8,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0030,probe,real,2026-11-11T10:46:59.602+00:00,,648.2,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0031,probe,real,2026-11-11T10:46:59.606+00:00,,644.9,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0032,probe,real,2026-11-11T10:46:59.700+00:00,,551.7,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0033,probe,real,2026-11-11T10:46:59.627+00:00,,624.7,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0034,probe,real,2026-11-11T10:46:59.608+00:00,,644.4,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0035,probe,real,2026-11-11T10:46:59.608+00:00,,644.5,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0036,probe,real,2026-11-11T10:46:59.975+00:00,,277.3,rate_limited,0,0,0,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000000,,0
+probe0037,probe,real,2026-11-11T10:46:59.608+00:00,,645.1,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0038,probe,real,2026-11-11T10:46:59.602+00:00,,650.7,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0039,probe,real,2026-11-11T10:46:59.607+00:00,,646.7,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0040,probe,real,2026-11-11T10:46:59.734+00:00,,519.6,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0041,probe,real,2026-11-11T10:46:59.704+00:00,,549.9,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0042,probe,real,2026-11-11T10:46:59.639+00:00,,614.7,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0043,probe,real,2026-11-11T10:46:59.680+00:00,,573.7,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0044,probe,real,2026-11-11T10:46:59.611+00:00,,643.5,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0045,probe,real,2026-11-11T10:46:59.678+00:00,,576.5,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0046,probe,real,2026-11-11T10:46:59.622+00:00,,632.1,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0047,probe,real,2026-11-11T10:46:59.661+00:00,,593.5,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0048,probe,real,2026-11-11T10:46:59.614+00:00,,641.1,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0049,probe,real,2026-11-11T10:46:59.629+00:00,,626.0,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0050,probe,real,2026-11-11T10:46:59.705+00:00,,550.0,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0051,probe,real,2026-11-11T10:46:59.618+00:00,,637.2,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0052,probe,real,2026-11-11T10:46:59.700+00:00,,555.1,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0053,probe,real,2026-11-11T10:46:59.679+00:00,,576.9,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0054,probe,real,2026-11-11T10:46:59.679+00:00,,577.4,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0055,probe,real,2026-11-11T10:46:59.690+00:00,,566.7,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0056,probe,real,2026-11-11T10:46:59.653+00:00,,603.1,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0057,probe,real,2026-11-11T10:46:59.621+00:00,,636.0,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0058,probe,real,2026-11-11T10:46:59.705+00:00,,551.6,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0059,probe,real,2026-11-11T10:46:59.663+00:00,,594.4,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0060,probe,real,2026-11-11T10:46:59.677+00:00,,579.9,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0061,probe,real,2026-11-11T10:46:59.656+00:00,,601.0,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0062,probe,real,2026-11-11T10:46:59.623+00:00,,634.6,ok,0,72,8,none (probe),,rpm_burst,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0063,probe,real,2026-11-11T10:47:00.261+00:00,,17.2,rate_limited,0,0,0,none (probe),,rpm_recover,,openai/gpt-oss-20b,0,,1,0.000000,,0
+probe0064,probe,real,2026-11-11T10:47:01.290+00:00,,22.2,rate_limited,0,0,0,none (probe),,rpm_recover,,openai/gpt-oss-20b,0,,1,0.000000,,0
+probe0065,probe,real,2026-11-11T10:47:02.314+00:00,,405.4,ok,0,72,8,none (probe),,rpm_recover,,openai/gpt-oss-20b,0,,1,0.000008,,0
+probe0066,probe,real,2026-11-11T10:48:07.736+00:00,,474.6,ok,0,1083,8,none (probe),,tpm_seq,,openai/gpt-oss-20b,0,,1,0.000084,,0
+probe0067,probe,real,2026-11-11T10:48:08.212+00:00,,410.9,ok,0,1083,8,none (probe),,tpm_seq,,openai/gpt-oss-20b,0,,1,0.000084,,0
+probe0068,probe,real,2026-11-11T10:48:08.624+00:00,,410.7,ok,0,1083,8,none (probe),,tpm_seq,,openai/gpt-oss-20b,0,,1,0.000084,,0
+probe0069,probe,real,2026-11-11T10:48:09.035+00:00,,446.4,ok,0,1083,8,none (probe),,tpm_seq,,openai/gpt-oss-20b,0,,1,0.000084,,0
+probe0070,probe,real,2026-11-11T10:48:09.483+00:00,,247.6,ok,0,1083,8,none (probe),,tpm_seq,,openai/gpt-oss-20b,0,,1,0.000084,,0
+probe0071,probe,real,2026-11-11T10:48:09.731+00:00,,463.1,ok,0,1083,8,none (probe),,tpm_seq,,openai/gpt-oss-20b,0,,1,0.000084,,0
+probe0072,probe,real,2026-11-11T10:48:10.195+00:00,,475.6,ok,0,1083,8,none (probe),,tpm_seq,,openai/gpt-oss-20b,0,,1,0.000084,,0
+probe0073,probe,real,2026-11-11T10:48:10.672+00:00,,611.2,ok,0,1083,8,none (probe),,tpm_seq,,openai/gpt-oss-20b,0,,1,0.000084,,0
+probe0074,probe,real,2026-11-11T10:48:11.285+00:00,,27.6,rate_limited,0,0,0,none (probe),,tpm_seq,,openai/gpt-oss-20b,0,,1,0.000000,,0
+probe0075,probe,real,2026-11-11T10:48:11.314+00:00,,23.2,rate_limited,0,0,0,none (probe),,tpm_recover,,openai/gpt-oss-20b,0,,1,0.000000,,0
+probe0076,probe,real,2026-11-11T10:48:12.338+00:00,,26.2,rate_limited,0,0,0,none (probe),,tpm_recover,,openai/gpt-oss-20b,0,,1,0.000000,,0
+probe0077,probe,real,2026-11-11T10:48:13.376+00:00,,26.6,rate_limited,0,0,0,none (probe),,tpm_recover,,openai/gpt-oss-20b,0,,1,0.000000,,0
+probe0078,probe,real,2026-11-11T10:48:14.407+00:00,,358.2,ok,0,1083,8,none (probe),,tpm_recover,,openai/gpt-oss-20b,0,,1,0.000084,,0
+d40dc7d019,eval_main,real,2026-11-11T14:31:51.189+00:00,1613.3,1613.5,ok,0,1978,166,medium_rerank:250w/k4/rerank16->4,correct,A01,L0,openai/gpt-oss-120b,0.0,1301.7,3,0.000325,,0
+8691632233,eval_main,real,2026-11-11T14:31:52.803+00:00,1300.6,1300.7,ok,0,2868,238,medium_rerank:250w/k4/rerank16->4,correct,A02,L0,openai/gpt-oss-120b,0.0,842.8,3,0.000454,,0
+2bcb0df6b9,eval_main,real,2026-11-11T14:31:54.104+00:00,1838.6,1838.7,ok,0,2702,193,medium_rerank:250w/k4/rerank16->4,correct,A03,L0,openai/gpt-oss-120b,0.0,1146.7,3,0.000427,,0
+83ce21d7b5,eval_main,real,2026-11-11T14:31:55.943+00:00,57742.7,57742.9,ok,0,2640,286,medium_rerank:250w/k4/rerank16->4,correct,A04,L0,openai/gpt-oss-120b,0.0,56653.0,3,0.000445,,0
+9c3b4b57de,eval_main,real,2026-11-11T14:32:53.686+00:00,1588.8,1588.9,ok,0,3036,184,medium_rerank:250w/k4/rerank16->4,correct,A05,L0,openai/gpt-oss-120b,0.0,1121.8,3,0.000442,,0
+87d3639f37,eval_main,real,2026-11-11T14:32:55.275+00:00,1580.2,1580.3,ok,0,2867,209,medium_rerank:250w/k4/rerank16->4,correct,A06,L0,openai/gpt-oss-120b,0.0,1084.1,3,0.000438,,0
+e3d0892225,eval_main,real,2026-11-11T14:32:56.855+00:00,57772.1,57772.4,rate_limited,0,3712,334,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A07,L3,openai/gpt-oss-120b,0.0,55538.3,3,0.000710,,0
+e70ff1032b,eval_main,real,2026-11-11T14:33:54.629+00:00,2918.9,2919.0,ok,0,1897,171,medium_rerank:250w/k4/rerank16->4,correct,A08,L0,openai/gpt-oss-120b,0.0,2199.1,3,0.000311,,0
+4743cd1429,eval_main,real,2026-11-11T14:33:57.548+00:00,55310.0,55310.2,ok,0,3095,256,medium_rerank:250w/k4/rerank16->4,correct,A09,L0,openai/gpt-oss-120b,0.0,54919.7,3,0.000486,,0
+82d1437fb0,eval_main,real,2026-11-11T14:34:52.858+00:00,1747.5,1747.6,ok,0,1960,128,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A10,L0,openai/gpt-oss-120b,0.0,1683.1,2,0.000336,,0
+e04bdc79a6,eval_main,real,2026-11-11T14:34:54.606+00:00,3180.5,3180.6,ok,0,2531,296,medium_rerank:250w/k4/rerank16->4,wrong,A11,L0,openai/gpt-oss-120b,0.0,2479.0,3,0.000466,,0
+f1bedea585,eval_main,real,2026-11-11T14:34:57.787+00:00,57641.6,57642.0,ok,0,4408,500,medium_rerank:250w/k4/rerank16->4,correct,A12,L0,openai/gpt-oss-120b,0.0,56392.0,4,0.000820,,0
+da1b296055,eval_main,real,2026-11-11T14:35:55.430+00:00,4531.4,4531.4,ok,0,2559,310,medium_rerank:250w/k4/rerank16->4,correct,A13,L0,openai/gpt-oss-120b,0.0,3905.1,3,0.000446,,0
+fb7733e3d1,eval_main,real,2026-11-11T14:35:59.961+00:00,53156.6,53156.7,ok,0,1767,199,medium_rerank:250w/k4/rerank16->4,correct,A14,L0,openai/gpt-oss-120b,0.0,52466.7,3,0.000314,,0
+a636b83c47,eval_main,real,2026-11-11T14:36:53.118+00:00,2868.6,2868.6,ok,0,2056,143,medium_rerank:250w/k4/rerank16->4,correct,A15,L0,openai/gpt-oss-120b,0.0,2413.7,3,0.000324,,0
+80e39fdc31,eval_main,real,2026-11-11T14:36:55.987+00:00,2381.8,2381.8,ok,0,1975,146,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A16,L0,openai/gpt-oss-120b,0.0,2324.8,2,0.000349,,0
+3959b33393,eval_main,real,2026-11-11T14:36:58.369+00:00,57888.6,57888.7,rate_limited,0,5753,646,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A17,L3,openai/gpt-oss-120b,0.0,54171.0,4,0.001073,,0
+ccd34e8665,eval_main,real,2026-11-11T14:37:56.257+00:00,2574.3,2574.5,ok,0,2230,246,medium_rerank:250w/k4/rerank16->4,correct,A18,L0,openai/gpt-oss-120b,0.0,2161.3,3,0.000365,,0
+276939c2b7,eval_main,real,2026-11-11T14:37:58.832+00:00,54494.8,54494.8,ok,0,2898,207,medium_rerank:250w/k4/rerank16->4,correct,A19,L0,openai/gpt-oss-120b,0.0,53939.9,3,0.000436,,0
+143525244b,eval_main,real,2026-11-11T14:38:53.327+00:00,2214.7,2214.8,ok,0,1621,173,medium_rerank:250w/k4/rerank16->4,refused_correctly,U01,L0,openai/gpt-oss-120b,0.0,2128.0,2,0.000299,,0
+a1cd305e39,eval_main,real,2026-11-11T14:38:55.542+00:00,3460.4,3460.7,ok,0,2074,118,medium_rerank:250w/k4/rerank16->4,refused_correctly,U02,L0,openai/gpt-oss-120b,0.1,3407.2,2,0.000345,,0
+2e07ceccd2,eval_main,real,2026-11-11T14:38:59.003+00:00,1903.4,1903.4,ok,0,1900,98,medium_rerank:250w/k4/rerank16->4,refused_correctly,U03,L0,openai/gpt-oss-120b,0.0,1849.2,2,0.000313,,0
+56c6bf7e34,eval_main,real,2026-11-11T14:39:00.907+00:00,54740.4,54740.5,ok,0,1918,97,medium_rerank:250w/k4/rerank16->4,refused_correctly,U04,L0,openai/gpt-oss-120b,0.0,54666.3,2,0.000313,,0
+319a0ec3e9,eval_main,real,2026-11-11T14:39:55.647+00:00,3346.4,3346.5,ok,0,2109,123,medium_rerank:250w/k4/rerank16->4,refused_correctly,U05,L0,openai/gpt-oss-120b,0.0,3287.1,2,0.000354,,0
+a9eae1aea9,eval_main,real,2026-11-11T14:39:58.994+00:00,2034.4,2034.5,ok,0,1930,187,medium_rerank:250w/k4/rerank16->4,refused_correctly,U06,L0,openai/gpt-oss-120b,0.0,1944.6,2,0.000350,,0
+dd24af67cf,eval_main,real,2026-11-11T14:40:01.029+00:00,54667.7,54668.3,ok,0,1954,166,medium_rerank:250w/k4/rerank16->4,refused_correctly,U07,L0,openai/gpt-oss-120b,0.0,54610.0,2,0.000341,,0
+79b82b8853,real_steady,real,2026-11-11T14:41:09.882+00:00,1696.8,1697.1,ok,0,1978,166,medium_rerank:250w/k4/rerank16->4,correct,A01,L0,openai/gpt-oss-120b,0.9,1187.4,3,0.000325,10229.0,0
+98cf8d61d1,real_steady,real,2026-11-11T14:41:26.286+00:00,2449.7,2449.9,ok,0,2868,221,medium_rerank:250w/k4/rerank16->4,correct,A02,L0,openai/gpt-oss-120b,0.1,1191.7,3,0.000450,11417.9,0
+0dd112e0a1,real_steady,real,2026-11-11T14:42:17.872+00:00,3058.9,3059.1,ok,0,2703,193,medium_rerank:250w/k4/rerank16->4,correct,A03,L0,openai/gpt-oss-120b,0.1,2434.3,3,0.000428,11951.9,0
+2c81ae306b,real_steady,real,2026-11-11T14:42:30.413+00:00,893.7,894.0,ok,0,2640,264,medium_rerank:250w/k4/rerank16->4,correct,A04,L0,openai/gpt-oss-120b,0.0,613.0,3,0.000436,13424.5,0
+9f451d0690,real_steady,real,2026-11-11T14:42:44.590+00:00,1118.9,1119.1,ok,0,3036,184,medium_rerank:250w/k4/rerank16->4,correct,A05,L0,openai/gpt-oss-120b,0.0,600.4,3,0.000442,11399.0,0
+49ee8e4d15,real_steady,real,2026-11-11T14:43:02.294+00:00,513.1,513.5,ok,0,759,86,lean:250w/k2/rerank16->2,wrong,A06,L2,openai/gpt-oss-20b,0.0,480.5,1,0.000083,13223.2,0
+1d88827c9c,real_steady,real,2026-11-11T14:43:06.373+00:00,665.3,665.5,ok,0,951,157,lean:250w/k2/rerank16->2,correct,A07,L2,openai/gpt-oss-20b,0.0,574.3,1,0.000118,4290.1,0
+5c1c5c1ced,real_steady,real,2026-11-11T14:43:20.728+00:00,1462.4,1462.8,ok,0,1898,178,medium_rerank:250w/k4/rerank16->4,correct,A08,L0,openai/gpt-oss-120b,0.0,1006.9,3,0.000314,8656.2,0
+e3d83cf102,real_steady,real,2026-11-11T14:43:40.593+00:00,1940.2,1940.4,ok,0,3095,253,medium_rerank:250w/k4/rerank16->4,correct,A09,L0,openai/gpt-oss-120b,0.0,1101.1,3,0.000485,13433.6,0
+18b9c706ea,real_steady,real,2026-11-11T14:44:12.105+00:00,940.8,941.1,ok,0,1960,123,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A10,L0,openai/gpt-oss-120b,0.1,875.6,2,0.000333,10489.7,0
+f0ba9904cd,real_steady,real,2026-11-11T14:44:14.077+00:00,597.2,597.4,ok,0,1034,73,lean:250w/k2/rerank16->2,wrong,A11,L2,openai/gpt-oss-20b,0.1,568.1,1,0.000099,13009.0,0
+6b7b5cf03e,real_steady,real,2026-11-11T14:44:21.314+00:00,1819.6,1820.1,rate_limited,0,2726,362,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A12,L3,openai/gpt-oss-120b,0.0,1079.5,3,0.000488,5132.1,0
+38f828e988,real_steady,real,2026-11-11T14:44:23.215+00:00,1611.8,1611.9,ok,0,1027,66,lean:250w/k2/rerank16->2,correct,A13,L2,openai/gpt-oss-20b,0.0,1586.2,1,0.000097,8690.7,0
+5ddba197e6,real_steady,real,2026-11-11T14:44:56.393+00:00,3206.4,3206.6,ok,0,1877,161,medium_rerank:250w/k4/rerank16->4,correct,A14,L0,openai/gpt-oss-120b,0.0,1348.1,3,0.000303,6465.7,0
+eaf0526cb0,real_steady,real,2026-11-11T14:45:20.038+00:00,1426.8,1426.9,ok,0,2056,143,medium_rerank:250w/k4/rerank16->4,correct,A15,L0,openai/gpt-oss-120b,0.0,1046.4,3,0.000324,9437.6,0
+571aac07c0,real_steady,real,2026-11-11T14:45:20.892+00:00,3800.7,3801.6,ok,0,1975,159,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A16,L0,openai/gpt-oss-120b,0.0,3742.5,2,0.000357,9739.4,0
+86f6fb14dc,real_burst,real,2026-11-11T14:45:25.898+00:00,2815.5,2815.7,ok,0,1978,166,medium_rerank:250w/k4/rerank16->4,correct,A01,L0,openai/gpt-oss-120b,0.0,1186.8,3,0.000325,10229.0,0
+f1b26eb060,real_burst,real,2026-11-11T14:45:26.068+00:00,5388.6,5389.0,rate_limited,2,255,113,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A02,L3,,0.0,,2,0.000053,11417.9,0
+c5c19ad7d0,real_burst,real,2026-11-11T14:45:26.239+00:00,1393.3,1393.3,ok,0,2204,114,medium_rerank:250w/k4/rerank16->4,correct,A03,L0,openai/gpt-oss-120b,0.0,1334.1,2,0.000366,11951.9,0
+7f9b3b8f52,real_burst,real,2026-11-11T14:45:26.408+00:00,1208.9,1209.0,rate_limited,1,260,43,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A04,L3,,0.0,,1,0.000032,13424.5,0
+103d76769b,real_burst,real,2026-11-11T14:45:26.580+00:00,1366.0,1366.2,rate_limited,1,269,54,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A05,L3,,0.0,,1,0.000036,11399.0,0
+572bcbe289,real_burst,real,2026-11-11T14:45:26.738+00:00,1113.3,1113.6,rate_limited,1,262,47,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A06,L3,,0.0,,1,0.000034,13223.2,0
+92b9cf5e61,real_burst,real,2026-11-11T14:45:26.908+00:00,581.3,581.4,rate_limited,1,264,90,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A07,L3,,0.1,,1,0.000047,4290.1,0
+6d26a393a7,real_burst,real,2026-11-11T14:45:27.067+00:00,873.8,873.9,rate_limited,1,262,47,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A08,L3,,0.0,,1,0.000034,8656.2,0
+fae583217c,real_burst,real,2026-11-11T14:45:27.232+00:00,3478.9,3479.1,ok,1,2358,221,medium_rerank:250w/k4/rerank16->4,correct,A09,L0,openai/gpt-oss-20b,0.0,957.3,3,0.000243,13433.6,0
+4b98991273,real_burst,real,2026-11-11T14:45:27.400+00:00,802.7,802.8,ok,0,775,35,lean:250w/k2/rerank16->2,refused_wrongly,A10,L2,openai/gpt-oss-20b,0.0,779.6,1,0.000069,10489.7,0
+1890f2f321,real_burst,real,2026-11-11T14:45:27.573+00:00,6.9,8.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,refused_wrongly,A11,L3,,0.0,,0,0.000000,13009.0,0
+883f722084,real_burst,real,2026-11-11T14:45:27.748+00:00,6.0,6.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,refused_wrongly,A12,L3,,0.1,,0,0.000000,5132.1,0
+43ab6e686d,retrieval_small,real,2026-11-11T14:58:18.239+00:00,396.3,396.3,ok,0,1784,54,small:120w/k8/norerank,correct,A01,L1,openai/gpt-oss-20b,0.0,372.7,1,0.000150,,0
+be9ae493bd,retrieval_small,real,2026-11-11T14:58:18.636+00:00,1621.6,1621.7,ok,0,2079,59,small:120w/k8/norerank,correct,A02,L1,openai/gpt-oss-20b,0.0,1590.7,1,0.000174,,0
+2917610971,retrieval_small,real,2026-11-11T14:58:20.257+00:00,794.2,794.3,ok,0,1804,63,small:120w/k8/norerank,correct,A03,L1,openai/gpt-oss-20b,0.0,770.8,1,0.000154,,0
+301b0f3f5d,retrieval_small,real,2026-11-11T14:58:21.052+00:00,58082.2,58082.4,ok,0,2060,61,small:120w/k8/norerank,correct,A04,L1,openai/gpt-oss-20b,0.0,58042.3,1,0.000173,,0
+589a6f831c,retrieval_small,real,2026-11-11T14:59:19.135+00:00,362.8,362.9,ok,0,1863,72,small:120w/k8/norerank,correct,A05,L1,openai/gpt-oss-20b,0.1,350.3,1,0.000161,,0
+8f9f43e285,retrieval_small,real,2026-11-11T14:59:19.498+00:00,1269.3,1269.3,ok,0,1705,70,small:120w/k8/norerank,correct,A06,L1,openai/gpt-oss-20b,0.0,1239.0,1,0.000149,,0
+f7bb6f12c8,retrieval_small,real,2026-11-11T14:59:20.767+00:00,58578.8,58579.3,ok,0,1847,161,small:120w/k8/norerank,correct,A07,L1,openai/gpt-oss-20b,0.0,58508.6,1,0.000187,,0
+39324f957b,retrieval_small,real,2026-11-11T15:00:19.348+00:00,572.8,573.0,ok,0,1864,42,small:120w/k8/norerank,correct,A08,L1,openai/gpt-oss-20b,0.1,564.9,1,0.000152,,0
+cb9ec56c14,retrieval_small,real,2026-11-11T15:00:19.922+00:00,1765.7,1765.8,ok,0,1976,143,small:120w/k8/norerank,correct,A09,L1,openai/gpt-oss-20b,0.0,1696.1,1,0.000191,,0
+262053bf0f,retrieval_small,real,2026-11-11T15:00:21.688+00:00,57346.5,57346.9,ok,0,1798,52,small:120w/k8/norerank,correct,A10,L1,openai/gpt-oss-20b,0.0,57322.1,1,0.000150,,0
+c5656f9ee7,retrieval_small,real,2026-11-11T15:01:19.036+00:00,1175.5,1175.7,ok,0,1842,88,small:120w/k8/norerank,wrong,A11,L1,openai/gpt-oss-20b,0.1,1147.6,1,0.000165,,0
+561959a78b,retrieval_small,real,2026-11-11T15:01:20.212+00:00,633.4,633.6,ok,0,1826,93,small:120w/k8/norerank,correct,A12,L1,openai/gpt-oss-20b,0.0,559.2,1,0.000165,,0
+e68dc82b62,retrieval_small,real,2026-11-11T15:01:20.846+00:00,58411.0,58411.3,ok,0,1867,81,small:120w/k8/norerank,correct,A13,L1,openai/gpt-oss-20b,0.0,58374.3,1,0.000164,,0
+c58237a4bf,retrieval_small,real,2026-11-11T15:02:19.258+00:00,889.2,889.6,ok,0,1661,72,small:120w/k8/norerank,correct,A14,L1,openai/gpt-oss-20b,0.0,861.3,1,0.000146,,0
+7fa9145a60,retrieval_small,real,2026-11-11T15:02:20.148+00:00,689.8,689.9,ok,0,1698,42,small:120w/k8/norerank,correct,A15,L1,openai/gpt-oss-20b,0.0,675.3,1,0.000140,,0
+19acdfecfc,retrieval_small,real,2026-11-11T15:02:20.840+00:00,58532.8,58533.0,ok,0,1952,183,small:120w/k8/norerank,wrong,A16,L1,openai/gpt-oss-20b,0.0,58461.9,1,0.000201,,0
+b0d7131956,retrieval_small,real,2026-11-11T15:03:19.374+00:00,1423.4,1423.7,ok,0,1906,77,small:120w/k8/norerank,correct,A17,L1,openai/gpt-oss-20b,0.0,1379.2,1,0.000166,,0
+df11116fce,retrieval_small,real,2026-11-11T15:03:20.798+00:00,528.7,529.0,ok,0,1610,80,small:120w/k8/norerank,correct,A18,L1,openai/gpt-oss-20b,0.0,498.1,1,0.000145,,0
+c5477c584b,retrieval_small,real,2026-11-11T15:03:21.327+00:00,57610.8,57611.0,ok,0,1765,108,small:120w/k8/norerank,wrong,A19,L1,openai/gpt-oss-20b,0.0,57572.6,1,0.000165,,0
+71d4ccb683,retrieval_small,real,2026-11-11T15:04:18.938+00:00,1129.8,1130.0,ok,0,1847,67,small:120w/k8/norerank,refused_correctly,U01,L1,openai/gpt-oss-20b,0.2,1085.7,1,0.000159,,0
+aea3a4c417,retrieval_small,real,2026-11-11T15:04:20.069+00:00,1511.0,1511.1,ok,0,1664,64,small:120w/k8/norerank,refused_correctly,U02,L1,openai/gpt-oss-20b,0.0,1471.0,1,0.000144,,0
+749534fadf,retrieval_small,real,2026-11-11T15:04:21.580+00:00,57362.1,57362.3,ok,0,1800,36,small:120w/k8/norerank,refused_correctly,U03,L1,openai/gpt-oss-20b,0.0,57336.0,1,0.000146,,0
+e3bda7d529,retrieval_small,real,2026-11-11T15:05:18.942+00:00,707.0,707.0,ok,0,1837,40,small:120w/k8/norerank,refused_correctly,U04,L1,openai/gpt-oss-20b,0.0,681.1,1,0.000150,,0
+374cc5a5e8,retrieval_small,real,2026-11-11T15:05:19.650+00:00,1791.1,1791.2,ok,0,1660,38,small:120w/k8/norerank,refused_correctly,U05,L1,openai/gpt-oss-20b,0.0,1766.0,1,0.000136,,0
+999bf1ea82,retrieval_small,real,2026-11-11T15:05:21.441+00:00,59518.9,59519.0,ok,0,1846,76,small:120w/k8/norerank,refused_correctly,U06,L1,openai/gpt-oss-20b,0.0,59476.8,1,0.000161,,0
+24be5f33c4,retrieval_small,real,2026-11-11T15:06:20.961+00:00,523.9,524.0,ok,0,1700,40,small:120w/k8/norerank,refused_correctly,U07,L1,openai/gpt-oss-20b,0.0,496.0,1,0.000140,,0
+fef95a729c,real_daily_exhausted,real,2026-11-11T15:09:22.059+00:00,213.8,214.1,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A01,L3,,0.0,,1,0.000000,,0
+0be24cfcfe,real_daily_exhausted,real,2026-11-11T15:09:22.273+00:00,4.2,4.7,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A02,L3,,0.0,,0,0.000000,,0
+1d94f471fe,real_daily_exhausted,real,2026-11-11T15:09:22.278+00:00,3.1,3.5,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A03,L3,,0.0,,0,0.000000,,0
+09f4ca16c3,real_daily_exhausted,real,2026-11-11T15:09:22.282+00:00,2.2,2.7,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A04,L3,,0.0,,0,0.000000,,0
+31f8c66702,real_daily_exhausted,real,2026-11-11T15:09:22.285+00:00,4.2,4.6,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A05,L3,,0.0,,0,0.000000,,0
+2ab6ff2bee,real_daily_exhausted,real,2026-11-11T15:09:22.290+00:00,2.8,3.2,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A06,L3,,0.0,,0,0.000000,,0
+f0634f7238,real_daily_exhausted,real,2026-11-11T15:09:22.294+00:00,1.9,2.4,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A07,L3,,0.1,,0,0.000000,,0
+ac566c9795,real_daily_exhausted,real,2026-11-11T15:09:22.296+00:00,1.3,1.5,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A08,L3,,0.0,,0,0.000000,,0
+667fa6e218,real_daily_exhausted,real,2026-11-11T15:09:22.298+00:00,2.1,2.3,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A09,L3,,0.0,,0,0.000000,,0
+d41a2a3f2a,real_daily_exhausted,real,2026-11-11T15:09:22.300+00:00,2.6,2.8,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A10,L3,,0.0,,0,0.000000,,0
+4ab3786731,real_daily_exhausted,real,2026-11-11T15:09:22.303+00:00,2.5,2.7,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A11,L3,,0.0,,0,0.000000,,0
+7db5c3cea5,real_daily_exhausted,real,2026-11-11T15:09:22.306+00:00,1.9,2.2,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A12,L3,,0.0,,0,0.000000,,0
+b03354afcc,real_daily_exhausted,real,2026-11-11T15:09:22.309+00:00,2.0,2.4,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A13,L3,,0.0,,0,0.000000,,0
+f3e8378ce1,real_daily_exhausted,real,2026-11-11T15:09:22.311+00:00,1.8,2.1,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A14,L3,,0.0,,0,0.000000,,0
+89f65287d8,real_daily_exhausted,real,2026-11-11T15:09:22.313+00:00,1.8,2.1,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A15,L3,,0.0,,0,0.000000,,0
+bce27fb6d2,real_daily_exhausted,real,2026-11-11T15:09:22.316+00:00,2.3,2.6,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A16,L3,,0.0,,0,0.000000,,0
+b31e47cfcd,real_daily_exhausted,real,2026-11-11T15:09:22.318+00:00,2.4,2.7,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A17,L3,,0.0,,0,0.000000,,0
+e0eeca8ccb,real_daily_exhausted,real,2026-11-11T15:09:22.321+00:00,1.8,2.0,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A18,L3,,0.0,,0,0.000000,,0
+5f31b55cf2,real_daily_exhausted,real,2026-11-11T15:09:22.323+00:00,2.5,2.8,rate_limited,0,0,0,large:600w/k3/norerank,refused_wrongly,A19,L3,,0.0,,0,0.000000,,0
+d2d7c4e271,real_daily_exhausted,real,2026-11-11T15:09:22.326+00:00,1.7,1.9,rate_limited,0,0,0,large:600w/k3/norerank,refused_correctly,U01,L3,,0.0,,0,0.000000,,0
+4cd39b5eef,real_daily_exhausted,real,2026-11-11T15:09:22.329+00:00,1.8,2.0,rate_limited,0,0,0,large:600w/k3/norerank,refused_correctly,U02,L3,,0.0,,0,0.000000,,0
+6f6c85a81b,real_daily_exhausted,real,2026-11-11T15:09:22.331+00:00,1.7,2.0,rate_limited,0,0,0,large:600w/k3/norerank,refused_correctly,U03,L3,,0.0,,0,0.000000,,0
+7556c38b49,real_daily_exhausted,real,2026-11-11T15:09:22.333+00:00,2.5,3.0,rate_limited,0,0,0,large:600w/k3/norerank,refused_correctly,U04,L3,,0.0,,0,0.000000,,0
+c1794f5a31,real_daily_exhausted,real,2026-11-11T15:09:22.336+00:00,1.4,1.6,rate_limited,0,0,0,large:600w/k3/norerank,refused_correctly,U05,L3,,0.0,,0,0.000000,,0
+e1e00c2b0d,real_daily_exhausted,real,2026-11-11T15:09:22.338+00:00,1.5,1.8,rate_limited,0,0,0,large:600w/k3/norerank,refused_correctly,U06,L3,,0.0,,0,0.000000,,0
+b97931f701,real_daily_exhausted,real,2026-11-11T15:09:22.340+00:00,7.5,7.8,rate_limited,0,0,0,large:600w/k3/norerank,refused_correctly,U07,L3,,0.0,,0,0.000000,,0
+5ced250274,eval_final,real,2026-11-11T16:05:41.248+00:00,1286.1,1286.5,ok,0,1784,51,small:120w/k8/norerank,correct,A01,L1,openai/gpt-oss-120b,0.1,1251.4,1,0.000298,,0
+c05d52ea87,eval_final,real,2026-11-11T16:05:42.535+00:00,544.7,544.9,ok,0,2079,60,small:120w/k8/norerank,correct,A02,L1,openai/gpt-oss-120b,0.0,489.8,1,0.000348,,0
+7fe174db51,eval_final,real,2026-11-11T16:05:43.080+00:00,680.0,680.2,ok,0,1804,88,small:120w/k8/norerank,correct,A03,L1,openai/gpt-oss-120b,0.0,618.9,1,0.000323,,0
+8bd7e89770,eval_final,real,2026-11-11T16:05:43.760+00:00,58296.5,58296.9,ok,0,2060,84,small:120w/k8/norerank,correct,A04,L1,openai/gpt-oss-120b,0.0,58210.7,1,0.000359,,0
+6bb9154f39,eval_final,real,2026-11-11T16:06:42.059+00:00,2375.5,2375.8,rate_limited,0,3794,154,small:120w/k8/norerank,refused_wrongly,A05,L3,openai/gpt-oss-120b,0.1,1648.3,2,0.000661,,0
+1d381b05fd,eval_final,real,2026-11-11T16:06:44.435+00:00,57753.0,57753.2,ok,0,1705,82,small:120w/k8/norerank,correct,A06,L1,openai/gpt-oss-120b,0.0,57690.6,1,0.000305,,0
+c96b9333f5,eval_final,real,2026-11-11T16:07:42.189+00:00,1079.3,1079.5,ok,0,1847,116,small:120w/k8/norerank,correct,A07,L1,openai/gpt-oss-120b,0.1,949.1,1,0.000347,,0
+f2a9eaea52,eval_final,real,2026-11-11T16:07:43.268+00:00,918.6,918.6,ok,0,1864,54,small:120w/k8/norerank,correct,A08,L1,openai/gpt-oss-120b,0.0,862.0,1,0.000312,,0
+9f86dd4b7d,eval_final,real,2026-11-11T16:07:44.187+00:00,58422.0,58422.8,ok,0,1976,221,small:120w/k8/norerank,correct,A09,L1,openai/gpt-oss-120b,0.0,58334.7,1,0.000429,,0
+98f0c2876c,eval_final,real,2026-11-11T16:08:42.614+00:00,899.0,899.4,ok,0,1798,55,small:120w/k8/norerank,correct,A10,L1,openai/gpt-oss-120b,0.2,861.4,1,0.000303,,0
+fd1f6ec06f,eval_final,real,2026-11-11T16:08:43.514+00:00,725.2,725.6,ok,0,1842,81,small:120w/k8/norerank,wrong,A11,L1,openai/gpt-oss-120b,0.1,666.3,1,0.000325,,0
+5aa565846a,eval_final,real,2026-11-11T16:08:44.240+00:00,58445.2,58445.8,ok,0,1826,132,small:120w/k8/norerank,correct,A12,L1,openai/gpt-oss-120b,0.0,58302.5,1,0.000353,,0
+43a9278d1d,eval_final,real,2026-11-11T16:09:42.689+00:00,648.7,649.0,ok,0,1867,112,small:120w/k8/norerank,correct,A13,L1,openai/gpt-oss-120b,0.2,584.6,1,0.000347,,0
+6b648fafd4,eval_final,real,2026-11-11T16:09:43.338+00:00,1122.6,1123.0,ok,0,1661,77,small:120w/k8/norerank,correct,A14,L1,openai/gpt-oss-120b,0.1,1051.8,1,0.000295,,0
+37ff0cb6d7,eval_final,real,2026-11-11T16:09:44.462+00:00,58642.2,58642.8,rate_limited,0,3456,115,small:120w/k8/norerank,refused_wrongly,A15,L3,openai/gpt-oss-120b,0.0,57733.7,2,0.000587,,0
+d16a4024ab,eval_final,real,2026-11-11T16:10:43.106+00:00,1487.5,1487.6,ok,0,1952,148,small:120w/k8/norerank,wrong,A16,L1,openai/gpt-oss-120b,0.0,1388.2,1,0.000382,,0
+fc7f3aa11d,eval_final,real,2026-11-11T16:10:44.594+00:00,57791.2,57791.6,ok,0,1906,131,small:120w/k8/norerank,correct,A17,L1,openai/gpt-oss-120b,0.0,57594.4,1,0.000364,,0
+099200ce11,eval_final,real,2026-11-11T16:11:42.386+00:00,817.3,817.5,ok,0,1610,110,small:120w/k8/norerank,correct,A18,L1,openai/gpt-oss-120b,0.4,702.5,1,0.000307,,0
+caa4a5d775,eval_final,real,2026-11-11T16:11:43.204+00:00,1474.4,1474.6,ok,0,1765,151,small:120w/k8/norerank,correct,A19,L1,openai/gpt-oss-120b,0.0,1367.6,1,0.000355,,0
+72bfd659e3,eval_final,real,2026-11-11T16:11:44.679+00:00,57548.6,57549.0,ok,0,1847,64,small:120w/k8/norerank,refused_correctly,U01,L1,openai/gpt-oss-120b,0.0,57480.7,1,0.000315,,0
+3dda0c1885,eval_final,real,2026-11-11T16:12:42.229+00:00,1096.8,1097.0,ok,0,1664,63,small:120w/k8/norerank,refused_correctly,U02,L1,openai/gpt-oss-120b,0.1,1039.4,1,0.000287,,0
+c321348a30,eval_final,real,2026-11-11T16:12:43.327+00:00,1089.6,1089.8,ok,0,1800,56,small:120w/k8/norerank,refused_correctly,U03,L1,openai/gpt-oss-120b,0.0,1043.2,1,0.000304,,0
+b9c97d044f,eval_final,real,2026-11-11T16:12:44.417+00:00,57775.0,57775.1,ok,0,1837,63,small:120w/k8/norerank,refused_correctly,U04,L1,openai/gpt-oss-120b,0.0,57715.5,1,0.000313,,0
+6dcb683021,eval_final,real,2026-11-11T16:13:42.192+00:00,1106.4,1106.5,ok,0,1660,67,small:120w/k8/norerank,refused_correctly,U05,L1,openai/gpt-oss-120b,0.0,1046.2,1,0.000289,,0
+65a66f3c5c,eval_final,real,2026-11-11T16:13:43.299+00:00,1073.3,1073.4,ok,0,1846,84,small:120w/k8/norerank,refused_correctly,U06,L1,openai/gpt-oss-120b,0.0,988.8,1,0.000327,,0
+88c526aed6,eval_final,real,2026-11-11T16:13:44.372+00:00,57693.8,57694.5,ok,0,1700,47,small:120w/k8/norerank,refused_correctly,U07,L1,openai/gpt-oss-120b,0.0,57635.4,1,0.000283,,0
+9435447647,retrieval_medium_rerank,real,2026-11-12T03:33:38.252+00:00,1751.9,1752.0,ok,0,1453,56,medium_rerank:250w/k4/rerank16->4,correct,A01,L1,openai/gpt-oss-20b,0.0,1729.7,1,0.000126,,0
+f4acf33a88,retrieval_medium_rerank,real,2026-11-12T03:33:40.004+00:00,477.2,477.3,ok,0,1913,48,medium_rerank:250w/k4/rerank16->4,correct,A02,L1,openai/gpt-oss-20b,0.0,457.3,1,0.000158,,0
+93811efd4f,retrieval_medium_rerank,real,2026-11-12T03:33:40.482+00:00,533.3,533.3,ok,0,1946,104,medium_rerank:250w/k4/rerank16->4,correct,A03,L1,openai/gpt-oss-20b,0.0,494.2,1,0.000177,,0
+f8062931d2,retrieval_medium_rerank,real,2026-11-12T03:33:41.015+00:00,57880.6,57880.8,ok,0,1720,73,medium_rerank:250w/k4/rerank16->4,correct,A04,L1,openai/gpt-oss-20b,0.0,57827.1,1,0.000151,,0
+a3c53606fd,retrieval_medium_rerank,real,2026-11-12T03:34:38.896+00:00,1596.4,1596.5,ok,0,1870,42,medium_rerank:250w/k4/rerank16->4,correct,A05,L1,openai/gpt-oss-20b,0.0,1581.7,1,0.000153,,0
+586d4ef771,retrieval_medium_rerank,real,2026-11-12T03:34:40.493+00:00,602.8,602.9,ok,0,1755,81,medium_rerank:250w/k4/rerank16->4,correct,A06,L1,openai/gpt-oss-20b,0.0,572.0,1,0.000156,,0
+ff97691904,retrieval_medium_rerank,real,2026-11-12T03:34:41.096+00:00,57670.6,57670.9,ok,0,1668,111,medium_rerank:250w/k4/rerank16->4,correct,A07,L1,openai/gpt-oss-20b,0.0,57617.0,1,0.000158,,0
+d6751824cc,retrieval_medium_rerank,real,2026-11-12T03:35:38.770+00:00,1728.8,1728.9,ok,0,1356,53,medium_rerank:250w/k4/rerank16->4,correct,A08,L1,openai/gpt-oss-20b,0.1,1696.4,1,0.000118,,0
+9e6d2298be,retrieval_medium_rerank,real,2026-11-12T03:35:40.499+00:00,533.5,533.6,ok,0,1853,93,medium_rerank:250w/k4/rerank16->4,correct,A09,L1,openai/gpt-oss-20b,0.0,495.1,1,0.000167,,0
+69b870ae3d,retrieval_medium_rerank,real,2026-11-12T03:35:41.033+00:00,58164.4,58165.1,ok,0,1705,55,medium_rerank:250w/k4/rerank16->4,refused_wrongly,A10,L1,openai/gpt-oss-20b,0.0,58134.3,1,0.000144,,0
+5abcb29d3a,retrieval_medium_rerank,real,2026-11-12T03:36:39.200+00:00,1307.5,1307.7,ok,0,1787,72,medium_rerank:250w/k4/rerank16->4,wrong,A11,L1,openai/gpt-oss-20b,0.1,1280.4,1,0.000156,,0
+52bed44498,retrieval_medium_rerank,real,2026-11-12T03:36:40.508+00:00,587.0,587.1,ok,0,1570,161,medium_rerank:250w/k4/rerank16->4,correct,A12,L1,openai/gpt-oss-20b,0.0,539.2,1,0.000166,,0
+b22c910e70,retrieval_medium_rerank,real,2026-11-12T03:36:41.095+00:00,57621.4,57621.6,ok,0,1755,58,medium_rerank:250w/k4/rerank16->4,correct,A13,L1,openai/gpt-oss-20b,0.0,57585.1,1,0.000149,,0
+2db1a982bc,retrieval_medium_rerank,real,2026-11-12T03:37:38.718+00:00,1871.4,1871.6,ok,0,1257,82,medium_rerank:250w/k4/rerank16->4,correct,A14,L1,openai/gpt-oss-20b,0.1,1840.3,1,0.000119,,0
+30d796b2f7,retrieval_medium_rerank,real,2026-11-12T03:37:40.590+00:00,546.7,546.8,ok,0,1498,43,medium_rerank:250w/k4/rerank16->4,correct,A15,L1,openai/gpt-oss-20b,0.0,531.3,1,0.000125,,0
+5797e995cb,retrieval_medium_rerank,real,2026-11-12T03:37:41.137+00:00,627.2,627.3,ok,0,1733,107,medium_rerank:250w/k4/rerank16->4,wrong,A16,L1,openai/gpt-oss-20b,0.0,603.8,1,0.000162,,0
+e8e5575e8e,retrieval_medium_rerank,real,2026-11-12T03:37:41.765+00:00,59780.0,59780.4,ok,0,3968,362,medium_rerank:250w/k4/rerank16->4,wrong,A17,L1,openai/gpt-oss-20b,0.0,58919.9,2,0.000406,,0
+1b98953836,retrieval_medium_rerank,real,2026-11-12T03:38:41.545+00:00,621.2,621.3,ok,0,1297,84,medium_rerank:250w/k4/rerank16->4,correct,A18,L1,openai/gpt-oss-20b,0.0,590.5,1,0.000122,,0
+d1e7caf6e6,retrieval_medium_rerank,real,2026-11-12T03:38:42.167+00:00,58410.9,58411.0,ok,0,1743,68,medium_rerank:250w/k4/rerank16->4,correct,A19,L1,openai/gpt-oss-20b,0.0,58368.2,1,0.000151,,0
+4cf46b86f7,retrieval_medium_rerank,real,2026-11-12T03:39:40.578+00:00,745.6,745.7,ok,0,1358,72,medium_rerank:250w/k4/rerank16->4,refused_correctly,U01,L1,openai/gpt-oss-20b,0.0,690.8,1,0.000123,,0
+ae98518342,retrieval_medium_rerank,real,2026-11-12T03:39:41.324+00:00,528.8,528.9,ok,0,1816,69,medium_rerank:250w/k4/rerank16->4,refused_correctly,U02,L1,openai/gpt-oss-20b,0.0,488.9,1,0.000157,,0
+105bf3c98c,retrieval_medium_rerank,real,2026-11-12T03:39:41.853+00:00,303.1,303.2,ok,0,1643,35,medium_rerank:250w/k4/rerank16->4,refused_correctly,U03,L1,openai/gpt-oss-20b,0.0,283.2,1,0.000134,,0
+6835d6df49,retrieval_medium_rerank,real,2026-11-12T03:39:42.157+00:00,59049.6,59049.8,ok,0,1444,56,medium_rerank:250w/k4/rerank16->4,refused_correctly,U04,L1,openai/gpt-oss-20b,0.0,59024.8,1,0.000125,,0
+45266822b2,retrieval_medium_rerank,real,2026-11-12T03:40:41.207+00:00,711.0,711.0,ok,0,1850,64,medium_rerank:250w/k4/rerank16->4,refused_correctly,U05,L1,openai/gpt-oss-20b,0.0,685.5,1,0.000158,,0
+2ec2882682,retrieval_medium_rerank,real,2026-11-12T03:40:41.918+00:00,480.7,480.8,ok,0,1667,60,medium_rerank:250w/k4/rerank16->4,refused_correctly,U06,L1,openai/gpt-oss-20b,0.0,441.1,1,0.000143,,0
+94cd274495,retrieval_medium_rerank,real,2026-11-12T03:40:42.399+00:00,58804.8,58804.9,ok,0,1758,40,medium_rerank:250w/k4/rerank16->4,refused_correctly,U07,L1,openai/gpt-oss-20b,0.0,58777.0,1,0.000144,,0
+850dccc93c,retrieval_large,real,2026-11-12T03:41:41.379+00:00,676.9,677.0,ok,0,1495,55,large:600w/k3/norerank,correct,A01,L1,openai/gpt-oss-20b,0.0,654.0,1,0.000129,,0
+b6768ae376,retrieval_large,real,2026-11-12T03:41:42.057+00:00,619.6,619.6,ok,0,3026,50,large:600w/k3/norerank,correct,A02,L1,openai/gpt-oss-20b,0.0,598.3,1,0.000242,,0
+497bdd23d2,retrieval_large,real,2026-11-12T03:41:42.676+00:00,48121.5,48121.5,ok,0,1989,91,large:600w/k3/norerank,correct,A03,L1,openai/gpt-oss-20b,0.0,48096.5,1,0.000176,,0
+487042f426,retrieval_large,real,2026-11-12T03:42:30.798+00:00,11266.7,11266.8,ok,0,1219,65,large:600w/k3/norerank,correct,A04,L1,openai/gpt-oss-20b,0.0,11204.5,1,0.000111,,0
+ed532965a9,retrieval_large,real,2026-11-12T03:42:42.065+00:00,48755.4,48755.7,rate_limited,0,4523,94,large:600w/k3/norerank,refused_wrongly,A05,L3,openai/gpt-oss-20b,0.0,520.9,2,0.000367,,0
+3fb970cb64,retrieval_large,real,2026-11-12T03:43:30.821+00:00,11720.4,11720.6,ok,0,3339,168,large:600w/k3/norerank,correct,A06,L1,openai/gpt-oss-20b,0.0,11234.7,2,0.000301,,0
+9ff45fb878,retrieval_large,real,2026-11-12T03:43:42.542+00:00,48368.1,48368.3,ok,0,1562,103,large:600w/k3/norerank,correct,A07,L1,openai/gpt-oss-20b,0.0,48316.1,1,0.000148,,0
+ed9b79ce9c,retrieval_large,real,2026-11-12T03:44:30.910+00:00,294.9,295.0,ok,0,1038,48,large:600w/k3/norerank,correct,A08,L1,openai/gpt-oss-20b,0.0,267.0,1,0.000092,,0
+c9f3d228d7,retrieval_large,real,2026-11-12T03:44:31.206+00:00,11391.2,11391.3,ok,0,2475,92,large:600w/k3/norerank,correct,A09,L1,openai/gpt-oss-20b,0.0,11331.6,1,0.000213,,0
+42aaeff262,retrieval_large,real,2026-11-12T03:44:42.597+00:00,48959.8,48959.9,ok,0,2652,54,large:600w/k3/norerank,refused_wrongly,A10,L1,openai/gpt-oss-20b,0.0,48922.9,1,0.000215,,0
+7f98d57b24,retrieval_large,real,2026-11-12T03:45:31.557+00:00,10952.1,10952.3,ok,0,2510,75,large:600w/k3/norerank,wrong,A11,L1,openai/gpt-oss-20b,0.0,10925.6,1,0.000211,,0
+fc6b6f2632,retrieval_large,real,2026-11-12T03:45:42.510+00:00,48856.1,48856.2,ok,0,2295,111,large:600w/k3/norerank,correct,A12,L1,openai/gpt-oss-20b,0.0,48813.1,1,0.000205,,0
+8456da2e25,retrieval_large,real,2026-11-12T03:46:31.366+00:00,11091.5,11091.7,ok,0,1860,65,large:600w/k3/norerank,correct,A13,L1,openai/gpt-oss-20b,0.0,11068.6,1,0.000159,,0
+41a2485d4d,retrieval_large,real,2026-11-12T03:46:42.458+00:00,377.7,377.8,ok,0,1740,100,large:600w/k3/norerank,correct,A14,L1,openai/gpt-oss-20b,0.0,350.5,1,0.000160,,0
+4215cf5b62,retrieval_large,real,2026-11-12T03:46:42.836+00:00,48686.6,48686.7,ok,0,1952,44,large:600w/k3/norerank,correct,A15,L1,openai/gpt-oss-20b,0.0,48671.9,1,0.000160,,0
+0566c55fd3,retrieval_large,real,2026-11-12T03:47:31.523+00:00,11203.4,11203.5,ok,0,2468,77,large:600w/k3/norerank,refused_wrongly,A16,L1,openai/gpt-oss-20b,0.0,11173.7,1,0.000208,,0
+d9d8760d2b,retrieval_large,real,2026-11-12T03:47:42.726+00:00,48844.6,48844.9,ok,0,2464,156,large:600w/k3/norerank,wrong,A17,L1,openai/gpt-oss-20b,0.0,48761.9,1,0.000232,,0
+1cefab93f0,retrieval_large,real,2026-11-12T03:48:31.572+00:00,11145.6,11145.8,ok,0,1741,113,large:600w/k3/norerank,correct,A18,L1,openai/gpt-oss-20b,0.0,11069.7,1,0.000164,,0
+e1d789bb65,retrieval_large,real,2026-11-12T03:48:42.718+00:00,48873.5,48873.7,ok,0,2772,50,large:600w/k3/norerank,correct,A19,L1,openai/gpt-oss-20b,0.0,48853.1,1,0.000223,,0
+f8763a8e3c,retrieval_large,real,2026-11-12T03:49:31.591+00:00,473.0,473.1,ok,0,1344,76,large:600w/k3/norerank,refused_correctly,U01,L1,openai/gpt-oss-20b,0.0,420.6,1,0.000124,,0
+92d78dd303,retrieval_large,real,2026-11-12T03:49:32.065+00:00,10569.9,10570.0,ok,0,1986,63,large:600w/k3/norerank,refused_correctly,U02,L1,openai/gpt-oss-20b,0.0,10539.7,1,0.000168,,0
+2ad6c4c4f8,retrieval_large,real,2026-11-12T03:49:42.635+00:00,48922.2,48922.3,ok,0,2298,36,large:600w/k3/norerank,refused_correctly,U03,L1,openai/gpt-oss-20b,0.0,48887.1,1,0.000183,,0
+53d8ca5137,retrieval_large,real,2026-11-12T03:50:31.557+00:00,11167.1,11167.3,ok,0,2684,57,large:600w/k3/norerank,refused_correctly,U04,L1,openai/gpt-oss-20b,0.0,11142.0,1,0.000218,,0
+7cad813a40,retrieval_large,real,2026-11-12T03:50:42.725+00:00,48795.1,48795.4,ok,0,1528,78,large:600w/k3/norerank,refused_correctly,U05,L1,openai/gpt-oss-20b,0.0,48764.6,1,0.000138,,0
+37fe90a35e,retrieval_large,real,2026-11-12T03:51:31.520+00:00,526.6,526.7,ok,0,1562,50,large:600w/k3/norerank,refused_correctly,U06,L1,openai/gpt-oss-20b,0.0,491.0,1,0.000132,,0
+e1f0a357d9,retrieval_large,real,2026-11-12T03:51:32.047+00:00,10668.3,10668.4,ok,0,2722,40,large:600w/k3/norerank,refused_correctly,U07,L1,openai/gpt-oss-20b,0.0,10640.2,1,0.000216,,0
+206e46e7b6,steady,stand-in,2026-11-12T06:18:32.544+00:00,1270.7,1271.0,ok,0,2007,90,medium_rerank:250w/k4/rerank16->4,,A01,L0,openai/gpt-oss-120b,0.0,755.4,3,0.000295,5045.3,0
+28e9e7ff6e,steady,stand-in,2026-11-12T06:19:00.748+00:00,1568.7,1568.9,ok,0,2421,63,medium_rerank:250w/k4/rerank16->4,,A02,L0,openai/gpt-oss-120b,0.1,1171.2,3,0.000348,12266.8,0
+0421e9250b,steady,stand-in,2026-11-12T06:19:22.389+00:00,1580.1,1580.3,ok,0,2283,65,medium_rerank:250w/k4/rerank16->4,,A03,L0,openai/gpt-oss-120b,0.1,891.7,3,0.000321,9546.1,0
+10af9e6b34,steady,stand-in,2026-11-12T06:19:26.804+00:00,708.5,708.8,ok,0,687,82,lean:250w/k2/rerank16->2,,A04,L2,openai/gpt-oss-20b,0.0,381.9,1,0.000076,10771.3,0
+a601273d5b,steady,stand-in,2026-11-12T06:19:37.070+00:00,2947.7,2948.0,ok,0,2398,95,medium_rerank:250w/k4/rerank16->4,,A05,L0,openai/gpt-oss-120b,0.0,1696.0,3,0.000352,5929.7,0
+3ca42d795f,steady,stand-in,2026-11-12T06:19:46.023+00:00,1108.5,1109.4,ok,0,670,98,lean:250w/k2/rerank16->2,,A06,L2,openai/gpt-oss-20b,0.0,720.2,1,0.000080,7231.4,0
+51579c1b71,steady,stand-in,2026-11-12T06:20:01.848+00:00,1820.2,1820.5,ok,0,2359,116,medium_rerank:250w/k4/rerank16->4,,A07,L0,openai/gpt-oss-120b,0.0,1044.1,3,0.000360,13679.7,0
+93b1bc1d9b,steady,stand-in,2026-11-12T06:20:25.152+00:00,3081.4,3081.5,ok,0,1951,87,medium_rerank:250w/k4/rerank16->4,,A08,L0,openai/gpt-oss-120b,0.0,923.9,3,0.000301,13611.6,0
+9982ed062d,steady,stand-in,2026-11-12T06:20:26.641+00:00,612.9,613.0,ok,0,901,25,lean:250w/k2/rerank16->2,,A09,L2,openai/gpt-oss-20b,0.0,519.1,1,0.000075,10749.7,0
+3c71286758,steady,stand-in,2026-11-12T06:20:27.065+00:00,897.1,897.2,ok,0,773,38,lean:250w/k2/rerank16->2,,A10,L2,openai/gpt-oss-20b,0.0,739.7,1,0.000069,12217.0,0
+518674f26f,steady,stand-in,2026-11-12T06:20:54.171+00:00,,4874.6,timeout,1,195,31,medium_rerank:250w/k4/rerank16->4,,A11,L0,,0.0,,2,0.000024,4866.1,1
+0b0a084995,steady,stand-in,2026-11-12T06:21:02.672+00:00,1782.6,1782.9,ok,0,2374,98,medium_rerank:250w/k4/rerank16->4,,A12,L0,openai/gpt-oss-120b,0.4,1038.9,3,0.000351,6576.2,0
+ad25f641a8,steady,stand-in,2026-11-12T06:21:24.217+00:00,3829.0,3829.9,ok,1,1836,110,medium_rerank:250w/k4/rerank16->4,,A13,L0,openai/gpt-oss-20b,0.0,3232.7,3,0.000171,11346.1,0
+d28e6fb470,steady,stand-in,2026-11-12T06:21:24.248+00:00,2743.2,2743.5,ok,0,1686,84,medium_rerank:250w/k4/rerank16->4,,A14,L0,openai/gpt-oss-120b,0.0,1957.3,3,0.000264,10834.0,0
+4552d726ec,steady,stand-in,2026-11-12T06:21:33.090+00:00,627.6,627.9,ok,0,834,90,lean:250w/k2/rerank16->2,,A15,L2,openai/gpt-oss-20b,0.0,266.0,1,0.000090,5605.2,0
+158cc10eac,steady,stand-in,2026-11-12T06:21:52.275+00:00,3817.0,3817.3,ok,0,2300,82,medium_rerank:250w/k4/rerank16->4,,A16,L0,openai/gpt-oss-120b,0.0,2923.1,3,0.000342,13393.2,0
+58a12bc9fd,steady,stand-in,2026-11-12T06:21:56.170+00:00,8305.2,8305.5,ok,0,2680,63,medium_rerank:250w/k4/rerank16->4,,A17,L0,openai/gpt-oss-120b,0.1,7576.8,3,0.000376,8453.8,0
+7ff3c4f602,steady,stand-in,2026-11-12T06:22:39.744+00:00,1990.1,1990.2,ok,0,2289,130,medium_rerank:250w/k4/rerank16->4,,A18,L0,openai/gpt-oss-120b,0.0,1244.6,3,0.000353,11596.7,0
+93a72dd44f,steady,stand-in,2026-11-12T06:23:14.504+00:00,2002.2,2002.4,ok,0,2797,93,medium_rerank:250w/k4/rerank16->4,,A19,L0,openai/gpt-oss-120b,0.1,1231.2,3,0.000410,4249.7,0
+cda70faff7,steady,stand-in,2026-11-12T06:23:14.969+00:00,1847.7,1847.9,ok,0,2207,113,medium_rerank:250w/k4/rerank16->4,,U01,L0,openai/gpt-oss-120b,0.0,1160.1,3,0.000337,6612.6,0
+f4023a53ef,steady,stand-in,2026-11-12T06:23:15.356+00:00,1739.1,1739.5,ok,1,1590,114,medium_rerank:250w/k4/rerank16->4,,U02,L0,openai/gpt-oss-20b,0.0,1085.5,3,0.000153,12903.2,0
+2a8efc08e5,steady,stand-in,2026-11-12T06:23:27.049+00:00,510.7,510.9,ok,0,715,59,lean:250w/k2/rerank16->2,,U03,L2,openai/gpt-oss-20b,0.0,287.4,1,0.000071,4977.5,0
+d592c5003d,steady,stand-in,2026-11-12T06:24:09.040+00:00,2864.5,2864.9,ok,0,2354,102,medium_rerank:250w/k4/rerank16->4,,U04,L0,openai/gpt-oss-120b,0.0,1647.5,3,0.000349,8186.0,0
+9bfc9a9e95,steady,stand-in,2026-11-12T06:24:16.238+00:00,1267.9,1268.2,ok,0,2544,61,medium_rerank:250w/k4/rerank16->4,,U05,L0,openai/gpt-oss-120b,0.0,860.4,3,0.000364,12223.0,0
+cde5e8f2f6,steady,stand-in,2026-11-12T06:24:19.895+00:00,3900.8,3901.1,ok,0,2356,114,medium_rerank:250w/k4/rerank16->4,,U06,L0,openai/gpt-oss-120b,0.0,1406.1,3,0.000359,9315.1,0
+9a5875cfd0,steady,stand-in,2026-11-12T06:24:28.121+00:00,934.6,935.0,ok,0,1049,65,lean:250w/k2/rerank16->2,,U07,L2,openai/gpt-oss-20b,0.0,665.1,1,0.000098,13755.6,0
+b401a838ce,steady,stand-in,2026-11-12T06:24:28.572+00:00,703.5,703.9,ok,0,685,57,lean:250w/k2/rerank16->2,,A01,L2,openai/gpt-oss-20b,0.0,466.2,1,0.000068,9022.5,0
+cbcc0b4299,steady,stand-in,2026-11-12T06:24:32.329+00:00,407.5,407.8,ok,0,983,32,lean:250w/k2/rerank16->2,,A02,L2,openai/gpt-oss-20b,0.0,281.2,1,0.000083,4976.3,0
+752859984a,steady,stand-in,2026-11-12T06:24:40.969+00:00,535.7,536.0,ok,0,848,29,lean:250w/k2/rerank16->2,,A03,L2,openai/gpt-oss-20b,0.1,408.3,1,0.000072,4044.3,0
+aa05d0e930,steady,stand-in,2026-11-12T06:24:51.249+00:00,4.8,4.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A04,L3,,0.0,,0,0.000000,10081.9,0
+b96b4725b4,steady,stand-in,2026-11-12T06:24:55.227+00:00,,5837.9,timeout,0,0,0,lean:250w/k2/rerank16->2,,A05,L2,,0.0,,0,0.000000,5818.1,1
+fdbe1627c5,steady,stand-in,2026-11-12T06:24:59.153+00:00,3489.4,3489.8,ok,0,670,98,lean:250w/k2/rerank16->2,,A06,L2,openai/gpt-oss-20b,0.1,3101.0,1,0.000080,4024.3,0
+2016db07b6,steady,stand-in,2026-11-12T06:25:02.860+00:00,5.8,6.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A07,L3,,0.0,,0,0.000000,5830.4,0
+6ad019dc5b,steady,stand-in,2026-11-12T06:25:12.091+00:00,2026.0,2026.4,ok,0,1951,87,medium_rerank:250w/k4/rerank16->4,,A08,L0,openai/gpt-oss-120b,0.1,1307.9,3,0.000301,13480.2,0
+84a5d8d61e,steady,stand-in,2026-11-12T06:25:17.232+00:00,2335.1,2335.3,ok,0,2299,54,medium_rerank:250w/k4/rerank16->4,,A09,L0,openai/gpt-oss-120b,0.1,1754.3,3,0.000326,5937.5,0
+1d1292a9e1,steady,stand-in,2026-11-12T06:25:17.548+00:00,6218.0,6218.3,ok,0,1871,64,medium_rerank:250w/k4/rerank16->4,,A10,L0,openai/gpt-oss-120b,0.1,5017.4,3,0.000278,6225.6,0
+85a70df707,steady,stand-in,2026-11-12T06:25:44.813+00:00,4416.7,4425.7,ok,0,2371,84,medium_rerank:250w/k4/rerank16->4,,A11,L0,openai/gpt-oss-120b,0.1,1181.0,3,0.000349,12174.0,0
+9d7a670076,steady,stand-in,2026-11-12T06:25:57.015+00:00,1698.3,1698.4,ok,0,834,62,lean:250w/k2/rerank16->2,,A12,L2,openai/gpt-oss-20b,0.0,1438.3,1,0.000081,10417.7,0
+953e3271b4,steady,stand-in,2026-11-12T06:26:12.429+00:00,7616.0,7616.4,ok,1,2703,110,medium_rerank:250w/k4/rerank16->4,,A13,L0,openai/gpt-oss-120b,0.0,6329.1,4,0.000404,9481.9,0
+f24bc4f8a8,steady,stand-in,2026-11-12T06:26:15.521+00:00,4842.0,4842.3,ok,0,1686,84,medium_rerank:250w/k4/rerank16->4,,A14,L0,openai/gpt-oss-120b,0.0,4124.2,3,0.000264,10438.4,0
+aaaf312c94,sustained_overload,stand-in,2026-11-12T06:28:48.510+00:00,1520.2,1520.4,ok,0,2007,90,medium_rerank:250w/k4/rerank16->4,,A01,L0,openai/gpt-oss-120b,0.1,849.8,3,0.000295,12639.2,0
+dc42f18a6c,sustained_overload,stand-in,2026-11-12T06:28:48.828+00:00,1853.0,1853.4,ok,0,2421,63,medium_rerank:250w/k4/rerank16->4,,A02,L0,openai/gpt-oss-120b,0.0,1233.9,3,0.000348,4586.6,0
+27594f842a,sustained_overload,stand-in,2026-11-12T06:28:50.354+00:00,5601.4,5601.9,ok,1,3131,65,medium_rerank:250w/k4/rerank16->4,,A03,L0,openai/gpt-oss-20b,0.0,4777.3,4,0.000376,13543.1,0
+986337efda,sustained_overload,stand-in,2026-11-12T06:28:50.850+00:00,1385.8,1385.9,ok,0,687,82,lean:250w/k2/rerank16->2,,A04,L2,openai/gpt-oss-20b,0.0,1061.5,1,0.000076,7158.9,0
+b23959a5cd,sustained_overload,stand-in,2026-11-12T06:28:51.064+00:00,614.9,615.2,ok,0,872,57,lean:250w/k2/rerank16->2,,A05,L2,openai/gpt-oss-20b,0.0,380.5,1,0.000082,10185.3,0
+1f6dad475e,sustained_overload,stand-in,2026-11-12T06:28:52.593+00:00,913.1,913.4,ok,0,670,98,lean:250w/k2/rerank16->2,,A06,L2,openai/gpt-oss-20b,0.0,526.0,1,0.000080,9273.4,0
+49999f3a63,sustained_overload,stand-in,2026-11-12T06:29:00.107+00:00,552.2,552.3,ok,0,1008,82,lean:250w/k2/rerank16->2,,A07,L2,openai/gpt-oss-20b,0.0,217.6,1,0.000100,10431.1,0
+d38bca50e8,sustained_overload,stand-in,2026-11-12T06:29:04.930+00:00,2.9,3.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A08,L3,,0.0,,0,0.000000,7206.4,0
+f563b5d949,sustained_overload,stand-in,2026-11-12T06:29:09.285+00:00,6.0,6.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A09,L3,,0.0,,0,0.000000,7722.9,0
+ed8a4c0973,sustained_overload,stand-in,2026-11-12T06:29:10.033+00:00,4.5,4.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A10,L3,,0.0,,0,0.000000,6486.7,0
+f89877475d,sustained_overload,stand-in,2026-11-12T06:29:12.343+00:00,5.1,5.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A11,L3,,0.0,,0,0.000000,11666.3,0
+218abbb413,sustained_overload,stand-in,2026-11-12T06:29:13.309+00:00,4.0,4.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A12,L3,,0.0,,0,0.000000,8683.8,0
+ba0984ed11,sustained_overload,stand-in,2026-11-12T06:29:13.883+00:00,5.9,6.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A13,L3,,0.0,,0,0.000000,11887.0,0
+64b5a0506d,sustained_overload,stand-in,2026-11-12T06:29:14.224+00:00,5.1,5.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A14,L3,,0.0,,0,0.000000,9437.1,0
+e451ccfdc8,sustained_overload,stand-in,2026-11-12T06:29:14.947+00:00,6.1,6.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A15,L3,,0.0,,0,0.000000,10232.1,0
+a64be4ae7a,sustained_overload,stand-in,2026-11-12T06:29:22.828+00:00,7.4,7.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A16,L3,,0.0,,0,0.000000,5633.3,0
+cd6a629661,sustained_overload,stand-in,2026-11-12T06:29:28.118+00:00,5.4,5.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A17,L3,,0.0,,0,0.000000,9237.0,0
+e8ceec5e7c,sustained_overload,stand-in,2026-11-12T06:29:33.046+00:00,4.2,4.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A18,L3,,0.0,,0,0.000000,6469.0,0
+5861b0efca,sustained_overload,stand-in,2026-11-12T06:29:37.873+00:00,8.9,9.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A19,L3,,0.0,,0,0.000000,9567.5,0
+80e8e4f156,sustained_overload,stand-in,2026-11-12T06:29:38.524+00:00,11.5,12.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U01,L3,,0.1,,0,0.000000,13809.6,0
+40f69fb661,sustained_overload,stand-in,2026-11-12T06:29:39.636+00:00,4.0,4.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U02,L3,,0.0,,0,0.000000,12388.9,0
+57f56efb97,sustained_overload,stand-in,2026-11-12T06:29:42.593+00:00,5.4,5.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U03,L3,,0.0,,0,0.000000,7986.0,0
+9f527f2746,sustained_overload,stand-in,2026-11-12T06:29:46.539+00:00,716.9,717.1,ok,0,1647,71,medium_rerank:250w/k4/rerank16->4,,U04,L1,openai/gpt-oss-120b,0.0,435.7,1,0.000290,9137.3,0
+d28e22bfd4,sustained_overload,stand-in,2026-11-12T06:29:52.327+00:00,2596.9,2597.0,ok,0,2544,61,medium_rerank:250w/k4/rerank16->4,,U05,L0,openai/gpt-oss-120b,0.0,1852.0,3,0.000364,9801.4,0
+13e903a3c4,sustained_overload,stand-in,2026-11-12T06:29:58.693+00:00,1741.4,1741.7,ok,0,2356,114,medium_rerank:250w/k4/rerank16->4,,U06,L0,openai/gpt-oss-120b,0.0,796.1,3,0.000359,12505.7,0
+face06fcdc,sustained_overload,stand-in,2026-11-12T06:29:58.960+00:00,1833.7,1834.1,ok,1,1743,96,medium_rerank:250w/k4/rerank16->4,,U07,L0,openai/gpt-oss-20b,0.0,1314.6,3,0.000160,10192.8,0
+0e14c4b218,sustained_overload,stand-in,2026-11-12T06:30:01.749+00:00,1869.0,1869.3,ok,0,685,57,lean:250w/k2/rerank16->2,,A01,L2,openai/gpt-oss-20b,0.0,1633.3,1,0.000068,7592.3,0
+d715497c03,sustained_overload,stand-in,2026-11-12T06:30:05.095+00:00,426.2,426.4,ok,0,983,32,lean:250w/k2/rerank16->2,,A02,L2,openai/gpt-oss-20b,0.0,298.1,1,0.000083,13699.6,0
+acf2d4dc06,sustained_overload,stand-in,2026-11-12T06:30:07.214+00:00,823.4,823.7,ok,0,848,29,lean:250w/k2/rerank16->2,,A03,L2,openai/gpt-oss-20b,0.0,695.0,1,0.000072,11595.5,0
+14ad74ef95,sustained_overload,stand-in,2026-11-12T06:30:07.800+00:00,6.3,6.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A04,L3,,0.0,,0,0.000000,12105.4,0
+503c38fc07,sustained_overload,stand-in,2026-11-12T06:30:09.719+00:00,8.0,8.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A05,L3,,0.0,,0,0.000000,4222.9,0
+92fe6249e4,sustained_overload,stand-in,2026-11-12T06:30:10.002+00:00,676.4,677.0,ok,0,670,98,lean:250w/k2/rerank16->2,,A06,L2,openai/gpt-oss-20b,0.0,282.9,1,0.000080,8968.4,0
+9b1ab210f0,sustained_overload,stand-in,2026-11-12T06:30:18.192+00:00,5.3,5.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A07,L3,,0.0,,0,0.000000,7190.9,0
+57f84aaa58,sustained_overload,stand-in,2026-11-12T06:30:24.195+00:00,4.1,4.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A08,L3,,0.0,,0,0.000000,9354.7,0
+7b8871e9aa,sustained_overload,stand-in,2026-11-12T06:30:26.589+00:00,4.8,5.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A09,L3,,0.0,,0,0.000000,7405.1,0
+a06ce4f9ce,sustained_overload,stand-in,2026-11-12T06:30:27.657+00:00,4.6,4.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A10,L3,,0.0,,0,0.000000,4324.9,0
+75a3be1dd9,sustained_overload,stand-in,2026-11-12T06:30:34.834+00:00,5.5,5.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A11,L3,,0.0,,0,0.000000,4651.8,0
+988216c088,sustained_overload,stand-in,2026-11-12T06:30:37.390+00:00,7.4,7.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A12,L3,,0.0,,0,0.000000,5893.2,0
+fdc7d32e0e,sustained_overload,stand-in,2026-11-12T06:30:43.814+00:00,3626.8,3626.9,ok,0,1950,73,medium_rerank:250w/k4/rerank16->4,,A13,L1,openai/gpt-oss-120b,0.0,3332.7,1,0.000336,10296.7,0
+23ba97a5dd,sustained_overload,stand-in,2026-11-12T06:30:49.461+00:00,4906.4,4906.8,ok,0,1278,56,medium_rerank:250w/k4/rerank16->4,,A14,L1,openai/gpt-oss-120b,0.0,4666.6,1,0.000225,12233.1,0
+a968fb3e02,sustained_overload,stand-in,2026-11-12T06:30:51.590+00:00,,4279.0,timeout,0,0,0,medium_rerank:250w/k4/rerank16->4,,A15,L1,,0.0,,0,0.000000,4270.4,1
+4456dd80bb,sustained_overload,stand-in,2026-11-12T06:30:53.191+00:00,6630.4,6631.0,ok,0,1751,42,medium_rerank:250w/k4/rerank16->4,,A16,L1,openai/gpt-oss-120b,0.0,6457.8,1,0.000288,8193.8,0
+6bd94342a9,sustained_overload,stand-in,2026-11-12T06:30:55.927+00:00,,4205.4,timeout,1,193,29,medium_rerank:250w/k4/rerank16->4,,A17,L0,,0.0,,2,0.000023,4200.6,1
+ea42a9ecdd,sustained_overload,stand-in,2026-11-12T06:30:57.626+00:00,7180.5,7180.7,ok,1,998,128,medium_rerank:250w/k4/rerank16->4,,A18,L0,openai/gpt-oss-20b,0.0,3266.0,2,0.000113,13913.1,0
+aad3bb40dd,sustained_overload,stand-in,2026-11-12T06:30:58.159+00:00,,5549.1,timeout,1,0,0,medium_rerank:250w/k4/rerank16->4,,A19,L1,,0.0,,0,0.000000,5545.2,1
+d00ab3ba76,sustained_overload,stand-in,2026-11-12T06:30:59.250+00:00,6778.0,6778.2,ok,0,1007,82,lean:250w/k2/rerank16->2,,U01,L2,openai/gpt-oss-20b,0.0,6448.6,1,0.000100,7703.8,0
+c95e9c81d7,sustained_overload,stand-in,2026-11-12T06:31:04.266+00:00,3906.4,3907.0,ok,0,958,82,lean:250w/k2/rerank16->2,,U02,L2,openai/gpt-oss-20b,0.0,3582.8,1,0.000096,8729.6,0
+9bf336f254,sustained_overload,stand-in,2026-11-12T06:31:04.407+00:00,6400.3,6400.5,ok,0,715,59,lean:250w/k2/rerank16->2,,U03,L2,openai/gpt-oss-20b,0.1,6177.0,1,0.000071,8279.8,0
+28166b3ee4,sustained_overload,stand-in,2026-11-12T06:31:04.548+00:00,,5190.8,timeout,0,0,0,lean:250w/k2/rerank16->2,,U04,L2,,0.0,,0,0.000000,5178.9,1
+637fd32ae2,sustained_overload,stand-in,2026-11-12T06:31:07.490+00:00,14.5,15.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U05,L3,,0.0,,0,0.000000,12408.0,0
+4b04fb77f4,sustained_overload,stand-in,2026-11-12T06:31:08.485+00:00,1535.0,1535.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U06,L3,,0.0,,0,0.000000,7213.7,0
+a77f5e1981,sustained_overload,stand-in,2026-11-12T06:31:10.784+00:00,11.5,12.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U07,L3,,0.0,,0,0.000000,8637.1,0
+d753995e7d,sustained_overload,stand-in,2026-11-12T06:31:12.685+00:00,4.9,5.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A01,L3,,0.0,,0,0.000000,5393.8,0
+de7549d9b9,sustained_overload,stand-in,2026-11-12T06:31:13.958+00:00,4.7,4.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A02,L3,,0.0,,0,0.000000,12502.9,0
+c565fc2fe7,sustained_overload,stand-in,2026-11-12T06:31:31.673+00:00,5.6,5.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A03,L3,,0.1,,0,0.000000,10168.5,0
+1791233825,sustained_overload,stand-in,2026-11-12T06:31:32.330+00:00,5.8,5.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A04,L3,,0.0,,0,0.000000,12853.3,0
+3d7c13fed5,sustained_overload,stand-in,2026-11-12T06:31:33.917+00:00,7.5,7.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A05,L3,,0.1,,0,0.000000,7426.8,0
+86fa7539f9,sustained_overload,stand-in,2026-11-12T06:31:34.602+00:00,775.9,776.1,ok,0,670,98,lean:250w/k2/rerank16->2,,A06,L2,openai/gpt-oss-20b,0.6,380.8,1,0.000080,9420.7,0
+446f71cf15,sustained_overload,stand-in,2026-11-12T06:31:37.610+00:00,6.9,7.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A07,L3,,0.1,,0,0.000000,13377.7,0
+68b58e6a5c,sustained_overload,stand-in,2026-11-12T06:31:38.577+00:00,5.4,5.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A08,L3,,0.1,,0,0.000000,6799.6,0
+5030d0205f,sustained_overload,stand-in,2026-11-12T06:31:39.896+00:00,5.9,6.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A09,L3,,0.0,,0,0.000000,9623.5,0
+5365d03a01,sustained_overload,stand-in,2026-11-12T06:31:44.022+00:00,732.8,733.0,ok,0,1430,38,medium_rerank:250w/k4/rerank16->4,,A10,L1,openai/gpt-oss-120b,0.0,576.0,1,0.000237,13039.7,0
+2cf41cc677,sustained_overload,stand-in,2026-11-12T06:31:45.182+00:00,2587.0,2587.3,ok,0,1735,53,medium_rerank:250w/k4/rerank16->4,,A11,L1,openai/gpt-oss-120b,0.1,2365.4,1,0.000292,11409.7,0
+fb5614425d,sustained_overload,stand-in,2026-11-12T06:31:47.625+00:00,3.6,4.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A12,L3,,0.0,,0,0.000000,11092.7,0
+05f80577b9,sustained_overload,stand-in,2026-11-12T06:31:54.676+00:00,5256.2,5256.4,ok,0,1950,73,medium_rerank:250w/k4/rerank16->4,,A13,L1,openai/gpt-oss-120b,0.1,4960.4,1,0.000336,11915.3,0
+05e0def3e9,sustained_overload,stand-in,2026-11-12T06:31:54.988+00:00,5229.8,5229.9,ok,1,683,59,medium_rerank:250w/k4/rerank16->4,,A14,L1,openai/gpt-oss-20b,0.1,5024.1,1,0.000069,6994.1,0
+4240ef0c2f,sustained_overload,stand-in,2026-11-12T06:31:55.176+00:00,6701.3,6701.4,ok,1,834,90,medium_rerank:250w/k4/rerank16->4,,A15,L1,openai/gpt-oss-20b,0.0,6382.2,1,0.000090,13292.9,0
+b3fb86afe3,sustained_overload,stand-in,2026-11-12T06:31:55.959+00:00,,6519.2,timeout,1,0,0,medium_rerank:250w/k4/rerank16->4,,A16,L1,,0.1,,1,0.000000,6511.7,1
+064cabfdf8,sustained_overload,stand-in,2026-11-12T06:32:00.306+00:00,7849.4,7849.5,ok,0,1052,32,lean:250w/k2/rerank16->2,,A17,L2,openai/gpt-oss-20b,0.0,7732.4,1,0.000088,9462.9,0
+b7fcef6bc3,sustained_overload,stand-in,2026-11-12T06:32:03.167+00:00,7508.7,7509.0,ok,0,803,97,lean:250w/k2/rerank16->2,,A18,L2,openai/gpt-oss-20b,0.0,7119.1,1,0.000089,8646.1,0
+c3f88155df,sustained_overload,stand-in,2026-11-12T06:32:03.991+00:00,,4890.9,timeout,0,0,0,lean:250w/k2/rerank16->2,,A19,L2,,0.0,,0,0.000000,4883.2,1
+37772c7f0e,sustained_overload,stand-in,2026-11-12T06:32:05.185+00:00,4846.1,4848.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U01,L3,,0.1,,0,0.000000,7644.3,0
+f0667fa2a0,sustained_overload,stand-in,2026-11-12T06:32:05.776+00:00,4256.0,4257.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U02,L3,,0.0,,0,0.000000,6498.5,0
+80be37aa40,sustained_overload,stand-in,2026-11-12T06:32:07.618+00:00,2414.2,2415.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U03,L3,,0.0,,0,0.000000,8213.4,0
+1e3c212c0d,sustained_overload,stand-in,2026-11-12T06:32:07.759+00:00,7.9,8.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U04,L3,,0.1,,0,0.000000,11120.1,0
+4f74c25844,sustained_overload,stand-in,2026-11-12T06:32:11.345+00:00,11.6,11.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U05,L3,,0.0,,0,0.000000,12050.6,0
+ab9718425f,sustained_overload,stand-in,2026-11-12T06:32:18.128+00:00,,6970.1,timeout,0,0,0,lean:250w/k2/rerank16->2,,U06,L2,,0.0,,0,0.000000,6957.4,1
+37b547a3d1,sustained_overload,stand-in,2026-11-12T06:32:27.416+00:00,8196.3,8196.6,ok,0,1049,65,lean:250w/k2/rerank16->2,,U07,L2,openai/gpt-oss-20b,0.1,7946.2,1,0.000098,9008.0,0
+b9e221c349,sustained_overload,stand-in,2026-11-12T06:32:31.393+00:00,3227.6,3228.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A01,L3,,0.0,,0,0.000000,10013.8,0
+74d1cf784a,sustained_overload,stand-in,2026-11-12T06:32:41.038+00:00,3821.5,3821.6,ok,0,1844,32,medium_rerank:250w/k4/rerank16->4,,A02,L1,openai/gpt-oss-120b,0.1,3695.7,1,0.000296,6114.9,0
+58024c6811,sustained_overload,stand-in,2026-11-12T06:32:41.101+00:00,6646.9,6647.3,ok,0,1625,29,medium_rerank:250w/k4/rerank16->4,,A03,L1,openai/gpt-oss-120b,0.0,6521.3,1,0.000261,13516.2,0
+86696734eb,sustained_overload,stand-in,2026-11-12T06:32:42.123+00:00,,13865.4,timeout,0,0,0,medium_rerank:250w/k4/rerank16->4,,A04,L1,,0.1,,0,0.000000,13855.1,1
+8c43871a97,sustained_overload,stand-in,2026-11-12T06:32:52.269+00:00,7.4,7.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A05,L3,,0.1,,0,0.000000,7936.2,0
+490bc7ade8,sustained_overload,stand-in,2026-11-12T06:32:56.739+00:00,3339.3,3339.6,ok,0,1384,98,medium_rerank:250w/k4/rerank16->4,,A06,L1,openai/gpt-oss-120b,0.0,2950.1,1,0.000266,6876.3,0
+fd0bd0da0a,sustained_overload,stand-in,2026-11-12T06:32:58.331+00:00,4909.8,4910.0,ok,1,1008,82,medium_rerank:250w/k4/rerank16->4,,A07,L1,openai/gpt-oss-20b,0.1,4599.1,1,0.000100,13381.0,0
+9697615fb2,sustained_overload,stand-in,2026-11-12T06:33:06.931+00:00,2146.7,2146.9,ok,0,1951,87,medium_rerank:250w/k4/rerank16->4,,A08,L0,openai/gpt-oss-120b,0.0,1642.0,3,0.000301,7303.1,0
+8a8be54f19,sustained_overload,stand-in,2026-11-12T06:33:09.840+00:00,863.2,863.4,ok,0,901,25,lean:250w/k2/rerank16->2,,A09,L2,openai/gpt-oss-20b,0.0,752.0,1,0.000075,12581.1,0
+b96f5c6fb2,sustained_overload,stand-in,2026-11-12T06:33:14.954+00:00,497.2,497.2,ok,0,773,38,lean:250w/k2/rerank16->2,,A10,L2,openai/gpt-oss-20b,0.0,340.0,1,0.000069,12713.6,0
+ebe874b4be,sustained_overload,stand-in,2026-11-12T06:33:15.993+00:00,540.2,540.4,ok,0,907,53,lean:250w/k2/rerank16->2,,A11,L2,openai/gpt-oss-20b,0.0,340.2,1,0.000084,7456.6,0
+d4dc4cce3c,sustained_overload,stand-in,2026-11-12T06:33:16.635+00:00,1075.7,1075.9,ok,0,834,62,lean:250w/k2/rerank16->2,,A12,L2,openai/gpt-oss-20b,0.0,826.8,1,0.000081,11321.4,0
+87d1ceabec,sustained_overload,stand-in,2026-11-12T06:33:18.391+00:00,5.9,6.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A13,L3,,0.0,,0,0.000000,11076.4,0
+6917b812eb,sustained_overload,stand-in,2026-11-12T06:33:18.835+00:00,2.3,2.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A14,L3,,0.0,,0,0.000000,13696.1,0
+bd5613ffff,sustained_overload,stand-in,2026-11-12T06:33:20.282+00:00,2.1,2.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A15,L3,,0.0,,0,0.000000,6801.8,0
+59c121fbf3,sustained_overload,stand-in,2026-11-12T06:33:30.069+00:00,5679.5,5679.6,ok,0,1058,62,lean:250w/k2/rerank16->2,,A16,L2,openai/gpt-oss-20b,0.1,5449.2,1,0.000098,11922.0,0
+6d57ec558d,sustained_overload,stand-in,2026-11-12T06:33:31.283+00:00,3344.8,3347.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A17,L3,,0.0,,0,0.000000,4032.0,0
+6de8e9b77d,sustained_overload,stand-in,2026-11-12T06:33:31.314+00:00,3314.5,3316.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A18,L3,,0.0,,0,0.000000,10001.1,0
+06b78b7ead,sustained_overload,stand-in,2026-11-12T06:33:31.439+00:00,3189.6,3190.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A19,L3,,0.0,,0,0.000000,6011.9,0
+284bd0bb9d,sustained_overload,stand-in,2026-11-12T06:33:32.000+00:00,2629.6,2630.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U01,L3,,0.0,,0,0.000000,9200.1,0
+d5c911445b,sustained_overload,stand-in,2026-11-12T06:33:36.591+00:00,5.7,6.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U02,L3,,0.0,,0,0.000000,10798.9,0
+5762ea79a6,sustained_overload,stand-in,2026-11-12T06:33:37.952+00:00,6.5,6.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U03,L3,,0.1,,0,0.000000,12384.8,0
+2ddd816c6b,sustained_overload,stand-in,2026-11-12T06:33:38.982+00:00,5963.8,5964.2,ok,0,1647,71,medium_rerank:250w/k4/rerank16->4,,U04,L1,openai/gpt-oss-120b,0.5,5680.3,1,0.000290,7419.4,0
+4f1bba5c4a,sustained_overload,stand-in,2026-11-12T06:33:39.293+00:00,4747.1,4747.4,rate_limited,1,0,0,medium_rerank:250w/k4/rerank16->4,,U05,L3,,0.0,,0,0.000000,11557.0,0
+cb0f26ee21,rpm_halved,stand-in,2026-11-12T06:33:59.678+00:00,1844.6,1844.9,ok,0,2007,90,medium_rerank:250w/k4/rerank16->4,,A01,L0,openai/gpt-oss-120b,0.1,1218.4,3,0.000295,7675.6,0
+28013c6eec,rpm_halved,stand-in,2026-11-12T06:34:19.978+00:00,475.6,475.7,ok,0,983,32,lean:250w/k2/rerank16->2,,A02,L2,openai/gpt-oss-20b,0.0,374.9,1,0.000083,4999.3,0
+f21c0cc7e6,rpm_halved,stand-in,2026-11-12T06:34:43.773+00:00,598.0,598.2,ok,0,848,29,lean:250w/k2/rerank16->2,,A03,L2,openai/gpt-oss-20b,0.1,481.8,1,0.000072,5653.4,0
+ae8f72975d,rpm_halved,stand-in,2026-11-12T06:35:26.588+00:00,3997.9,3998.1,ok,0,2118,116,medium_rerank:250w/k4/rerank16->4,,A04,L0,openai/gpt-oss-120b,0.0,3379.0,3,0.000324,12036.1,0
+985409da1e,rpm_halved,stand-in,2026-11-12T06:35:46.786+00:00,3011.1,3012.4,rate_limited,0,872,0,lean:250w/k2/rerank16->2,,A05,L3,,0.0,,1,0.000065,5772.6,0
+94bdcbf9ba,rpm_halved,stand-in,2026-11-12T06:36:25.124+00:00,2472.4,2472.5,ok,0,1569,133,medium_rerank:250w/k4/rerank16->4,,A06,L0,openai/gpt-oss-120b,0.3,1342.7,2,0.000290,5552.9,0
+f549cf4734,rpm_halved,stand-in,2026-11-12T06:36:25.564+00:00,5638.6,5638.9,rate_limited,2,195,32,medium_rerank:250w/k4/rerank16->4,,A07,L3,,0.0,,2,0.000024,12806.4,0
+e67a7e7906,rpm_halved,stand-in,2026-11-12T06:36:34.969+00:00,3.9,4.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A08,L3,,0.0,,0,0.000000,5601.2,0
+802d0e2243,rpm_halved,stand-in,2026-11-12T06:37:18.029+00:00,1242.3,1243.1,ok,0,901,25,lean:250w/k2/rerank16->2,,A09,L2,openai/gpt-oss-20b,0.6,1127.6,1,0.000075,7905.8,0
+14997c13ec,rpm_halved,stand-in,2026-11-12T06:37:33.737+00:00,2199.0,2199.2,ok,0,1871,64,medium_rerank:250w/k4/rerank16->4,,A10,L0,openai/gpt-oss-120b,0.0,1005.2,3,0.000278,10112.0,0
+bc9307c280,rpm_halved,stand-in,2026-11-12T06:38:08.407+00:00,594.5,595.5,ok,0,907,53,lean:250w/k2/rerank16->2,,A11,L2,openai/gpt-oss-20b,0.2,359.0,1,0.000084,5273.3,0
+aa7fbc907f,rpm_halved,stand-in,2026-11-12T06:38:10.212+00:00,8543.1,8543.5,ok,0,834,62,lean:250w/k2/rerank16->2,,A12,L2,openai/gpt-oss-20b,0.0,8293.6,1,0.000081,11949.1,0
+c68b9b2c3e,rpm_halved,stand-in,2026-11-12T06:38:19.720+00:00,,12169.2,timeout,0,0,0,lean:250w/k2/rerank16->2,,A13,L2,,0.0,,0,0.000000,12167.0,1
+ea8e300cc3,rpm_halved,stand-in,2026-11-12T06:38:23.953+00:00,,9344.2,timeout,0,0,0,lean:250w/k2/rerank16->2,,A14,L2,,0.0,,0,0.000000,9328.0,1
+b7bb58bfcf,rpm_halved,stand-in,2026-11-12T06:38:35.729+00:00,1753.8,1754.0,ok,0,2130,105,medium_rerank:250w/k4/rerank16->4,,A15,L0,openai/gpt-oss-120b,0.0,1010.4,3,0.000330,13689.8,0
+bcb984dad9,rpm_halved,stand-in,2026-11-12T06:38:48.527+00:00,3.5,3.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A16,L3,,0.0,,0,0.000000,13215.8,0
+b88f359ae3,rpm_halved,stand-in,2026-11-12T06:38:48.717+00:00,4.7,4.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A17,L3,,0.0,,0,0.000000,7247.2,0
+7eb49f4f13,rpm_halved,stand-in,2026-11-12T06:38:52.381+00:00,,13721.4,timeout,0,0,0,lean:250w/k2/rerank16->2,,A18,L2,,0.0,,0,0.000000,13707.3,1
+084e04c2a3,rpm_halved,stand-in,2026-11-12T06:38:57.296+00:00,,5374.7,timeout,0,0,0,lean:250w/k2/rerank16->2,,A19,L2,,0.0,,0,0.000000,5359.1,1
+b7b937e3e1,rpm_halved,stand-in,2026-11-12T06:39:34.510+00:00,3665.9,3666.1,ok,0,2207,113,medium_rerank:250w/k4/rerank16->4,,U01,L0,openai/gpt-oss-120b,0.0,2147.0,3,0.000337,12358.9,0
+b6b5215298,daily_exhausted,stand-in,2026-11-12T06:40:01.987+00:00,830.1,830.2,ok,0,685,57,lean:250w/k2/rerank16->2,,A01,L2,openai/gpt-oss-20b,0.1,594.7,1,0.000068,12770.1,0
+7db8b94791,daily_exhausted,stand-in,2026-11-12T06:40:27.879+00:00,739.1,739.4,ok,0,983,32,lean:250w/k2/rerank16->2,,A02,L2,openai/gpt-oss-20b,0.0,612.2,1,0.000083,9817.7,0
+e6d8272921,daily_exhausted,stand-in,2026-11-12T06:40:37.826+00:00,495.0,495.2,ok,0,848,29,lean:250w/k2/rerank16->2,,A03,L2,openai/gpt-oss-20b,0.0,371.4,1,0.000072,4380.8,0
+d4972c6de1,daily_exhausted,stand-in,2026-11-12T06:40:42.391+00:00,926.1,926.5,ok,0,687,82,lean:250w/k2/rerank16->2,,A04,L2,openai/gpt-oss-20b,0.1,598.0,1,0.000076,13327.6,0
+eadd398c93,daily_exhausted,stand-in,2026-11-12T06:40:42.410+00:00,860.7,861.2,ok,0,872,57,lean:250w/k2/rerank16->2,,A05,L2,openai/gpt-oss-20b,0.0,627.1,1,0.000082,5028.2,0
+7df963aff2,daily_exhausted,stand-in,2026-11-12T06:40:58.697+00:00,1109.0,1109.6,ok,0,670,98,lean:250w/k2/rerank16->2,,A06,L2,openai/gpt-oss-20b,0.1,717.6,1,0.000080,10098.5,0
+8f4259e7a1,daily_exhausted,stand-in,2026-11-12T06:41:08.220+00:00,913.0,913.5,ok,0,1008,82,lean:250w/k2/rerank16->2,,A07,L2,openai/gpt-oss-20b,0.0,604.2,1,0.000100,10197.1,0
+7d3b2d9f8b,daily_exhausted,stand-in,2026-11-12T06:41:29.615+00:00,622.4,622.7,ok,0,657,53,lean:250w/k2/rerank16->2,,A08,L2,openai/gpt-oss-20b,0.0,403.3,1,0.000065,6786.1,0
+c1ec11b19e,daily_exhausted,stand-in,2026-11-12T06:41:36.629+00:00,617.2,617.4,ok,0,901,25,lean:250w/k2/rerank16->2,,A09,L2,openai/gpt-oss-20b,0.0,507.4,1,0.000075,13663.4,0
+699027ba7a,daily_exhausted,stand-in,2026-11-12T06:41:58.681+00:00,496.8,497.0,ok,0,773,38,lean:250w/k2/rerank16->2,,A10,L2,openai/gpt-oss-20b,0.1,341.7,1,0.000069,7353.6,0
+9e12cc3eb0,daily_exhausted,stand-in,2026-11-12T06:42:03.452+00:00,1142.2,1142.6,ok,0,907,53,lean:250w/k2/rerank16->2,,A11,L2,openai/gpt-oss-20b,0.0,918.3,1,0.000084,7832.6,0
+269658de36,daily_exhausted,stand-in,2026-11-12T06:42:27.741+00:00,994.2,994.3,ok,0,834,62,lean:250w/k2/rerank16->2,,A12,L2,openai/gpt-oss-20b,0.1,738.7,1,0.000081,13845.3,0
+d91a9a6870,daily_exhausted,stand-in,2026-11-12T06:42:47.376+00:00,857.2,858.0,ok,0,1083,73,lean:250w/k2/rerank16->2,,A13,L2,openai/gpt-oss-20b,0.1,576.7,1,0.000103,11440.9,0
+c75b383012,daily_exhausted,stand-in,2026-11-12T06:42:55.378+00:00,1060.9,1061.3,ok,0,683,59,lean:250w/k2/rerank16->2,,A14,L2,openai/gpt-oss-20b,0.1,812.3,1,0.000069,8214.6,0
+b0615a296c,daily_exhausted,stand-in,2026-11-12T06:43:06.971+00:00,1013.4,1013.5,ok,0,834,90,lean:250w/k2/rerank16->2,,A15,L2,openai/gpt-oss-20b,0.0,660.4,1,0.000090,12045.6,0
+08fbfb29c4,daily_exhausted,stand-in,2026-11-12T06:43:24.171+00:00,925.3,925.5,ok,0,1058,62,lean:250w/k2/rerank16->2,,A16,L2,openai/gpt-oss-20b,0.0,671.2,1,0.000098,10866.6,0
+0dc3ce870a,daily_exhausted,stand-in,2026-11-12T06:43:27.383+00:00,761.7,762.0,ok,0,1052,32,lean:250w/k2/rerank16->2,,A17,L2,openai/gpt-oss-20b,0.0,637.0,1,0.000088,8820.7,0
+8a48d80c90,slow_provider,stand-in,2026-11-12T10:32:23.817+00:00,4645.8,4646.1,ok,0,2007,90,medium_rerank:250w/k4/rerank16->4,,A01,L0,openai/gpt-oss-120b,0.0,4068.0,3,0.000295,6708.2,0
+9b0dc1d1a8,slow_provider,stand-in,2026-11-12T10:32:48.401+00:00,2420.4,2420.7,ok,0,2421,63,medium_rerank:250w/k4/rerank16->4,,A02,L0,openai/gpt-oss-120b,0.0,1949.9,3,0.000348,4480.9,0
+394d2794f9,slow_provider,stand-in,2026-11-12T10:32:49.421+00:00,6212.2,6212.5,ok,1,3131,65,medium_rerank:250w/k4/rerank16->4,,A03,L0,openai/gpt-oss-20b,0.0,5456.1,4,0.000376,7996.6,0
+6eb424b771,slow_provider,stand-in,2026-11-12T10:32:58.563+00:00,955.9,956.2,ok,0,687,82,lean:250w/k2/rerank16->2,,A04,L2,openai/gpt-oss-20b,0.1,635.6,1,0.000076,5641.1,0
+c1429f3ccb,slow_provider,stand-in,2026-11-12T10:32:59.242+00:00,1072.1,1072.3,ok,0,872,57,lean:250w/k2/rerank16->2,,A05,L2,openai/gpt-oss-20b,0.0,829.6,1,0.000082,7226.0,0
+c5b1677112,slow_provider,stand-in,2026-11-12T10:33:01.370+00:00,978.2,978.4,ok,0,670,98,lean:250w/k2/rerank16->2,,A06,L2,openai/gpt-oss-20b,0.0,585.7,1,0.000080,13026.8,0
+33b12d0623,slow_provider,stand-in,2026-11-12T10:33:54.204+00:00,3166.3,3166.4,ok,0,2359,116,medium_rerank:250w/k4/rerank16->4,,A07,L0,openai/gpt-oss-120b,0.0,2402.7,3,0.000360,12811.3,0
+56f8264202,slow_provider,stand-in,2026-11-12T10:33:55.975+00:00,1633.6,1633.7,ok,0,1951,87,medium_rerank:250w/k4/rerank16->4,,A08,L0,openai/gpt-oss-120b,0.0,1055.0,3,0.000301,12141.1,0
+84d0a4451f,slow_provider,stand-in,2026-11-12T10:34:03.675+00:00,5423.0,5423.3,ok,1,3200,54,medium_rerank:250w/k4/rerank16->4,,A09,L0,openai/gpt-oss-20b,0.0,4949.4,4,0.000386,13612.4,0
+661c4bf2f1,slow_provider,stand-in,2026-11-12T10:34:08.273+00:00,907.6,907.8,ok,0,773,38,lean:250w/k2/rerank16->2,,A10,L2,openai/gpt-oss-20b,0.0,743.0,1,0.000069,11730.0,0
+c9284fc1f6,slow_provider,stand-in,2026-11-12T10:34:12.809+00:00,1100.0,1100.2,ok,1,907,53,lean:250w/k2/rerank16->2,,A11,L2,openai/gpt-oss-20b,0.0,890.1,2,0.000084,7857.9,0
+83e631152b,slow_provider,stand-in,2026-11-12T10:34:17.927+00:00,4.1,4.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A12,L3,,0.0,,0,0.000000,4173.4,0
+629119c048,slow_provider,stand-in,2026-11-12T10:34:19.526+00:00,5.5,5.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A13,L3,,0.0,,0,0.000000,8545.2,0
+290d6b1a7d,slow_provider,stand-in,2026-11-12T10:34:32.842+00:00,3.2,3.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A14,L3,,0.0,,0,0.000000,8148.4,0
+69259c1faa,slow_provider,stand-in,2026-11-12T10:34:33.549+00:00,4.1,4.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A15,L3,,0.0,,0,0.000000,11666.5,0
+5f3354bbd6,slow_provider,stand-in,2026-11-12T10:34:35.553+00:00,4.8,5.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A16,L3,,0.0,,0,0.000000,13258.9,0
+8c70d8aaf8,slow_provider,stand-in,2026-11-12T10:34:35.693+00:00,5.2,5.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A17,L3,,0.0,,0,0.000000,6926.0,0
+2e9ef2f8d4,slow_provider,stand-in,2026-11-12T10:34:38.025+00:00,4.8,5.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A18,L3,,0.0,,0,0.000000,6534.7,0
+d6614297f2,slow_provider,stand-in,2026-11-12T10:34:41.948+00:00,,8711.1,timeout,0,0,0,lean:250w/k2/rerank16->2,,A19,L2,,0.0,,0,0.000000,8704.3,1
+6abd04762e,slow_provider,stand-in,2026-11-12T10:34:59.377+00:00,9029.6,9029.8,ok,1,3214,113,medium_rerank:250w/k4/rerank16->4,,U01,L0,openai/gpt-oss-20b,0.0,5991.3,4,0.000387,13326.9,0
+2901cd73ae,slow_provider,stand-in,2026-11-12T10:35:02.955+00:00,3659.4,3659.6,ok,0,2430,114,medium_rerank:250w/k4/rerank16->4,,U02,L0,openai/gpt-oss-120b,0.1,1716.1,3,0.000370,8550.7,0
+b177e97919,slow_provider,stand-in,2026-11-12T10:35:03.865+00:00,689.9,690.1,ok,0,1333,59,medium_rerank:250w/k4/rerank16->4,,U03,L1,openai/gpt-oss-120b,0.0,492.0,1,0.000235,12402.0,0
+241fe3ee10,slow_provider,stand-in,2026-11-12T10:35:06.095+00:00,3083.8,3084.3,ok,0,1046,71,lean:250w/k2/rerank16->2,,U04,L2,openai/gpt-oss-20b,0.0,2788.7,1,0.000100,6960.8,0
+b4b6add20c,slow_provider_naive_retry,stand-in,2026-11-12T10:35:11.165+00:00,1906.3,1906.5,ok,0,2007,90,medium_rerank:250w/k4/rerank16->4,,A01,L0,openai/gpt-oss-120b,0.0,948.8,3,0.000295,9649.0,0
+3dcadd3404,slow_provider_naive_retry,stand-in,2026-11-12T10:35:35.758+00:00,1804.2,1804.4,ok,0,2421,63,medium_rerank:250w/k4/rerank16->4,,A02,L0,openai/gpt-oss-120b,0.0,1032.4,3,0.000348,11407.8,0
+43cb72b864,slow_provider_naive_retry,stand-in,2026-11-12T10:35:36.758+00:00,,4215.9,timeout,0,197,34,medium_rerank:250w/k4/rerank16->4,,A03,L0,,0.0,,2,0.000025,4210.0,1
+5d1592b0ee,slow_provider_naive_retry,stand-in,2026-11-12T10:35:45.920+00:00,761.6,761.8,ok,0,687,82,lean:250w/k2/rerank16->2,,A04,L2,openai/gpt-oss-20b,0.0,451.5,1,0.000076,12832.2,0
+9a228c5b4b,slow_provider_naive_retry,stand-in,2026-11-12T10:35:46.575+00:00,1254.5,1254.9,ok,0,872,57,lean:250w/k2/rerank16->2,,A05,L2,openai/gpt-oss-20b,0.0,1038.0,1,0.000082,10320.9,0
+d386667a94,slow_provider_naive_retry,stand-in,2026-11-12T10:35:48.709+00:00,2277.2,2277.4,ok,0,670,98,lean:250w/k2/rerank16->2,,A06,L2,openai/gpt-oss-20b,0.0,1911.6,1,0.000080,10521.0,0
+3a2b709ce2,slow_provider_naive_retry,stand-in,2026-11-12T10:36:41.552+00:00,6389.6,6389.7,ok,2,4009,116,medium_rerank:250w/k4/rerank16->4,,A07,L0,openai/gpt-oss-120b,0.1,5774.1,5,0.000608,12453.8,0
+d20039fa9f,slow_provider_naive_retry,stand-in,2026-11-12T10:36:43.314+00:00,2041.3,2041.4,ok,0,1951,87,medium_rerank:250w/k4/rerank16->4,,A08,L0,openai/gpt-oss-120b,0.0,1384.9,3,0.000301,7429.2,0
+526b7ee52b,slow_provider_naive_retry,stand-in,2026-11-12T10:36:51.021+00:00,1039.0,1039.3,ok,0,901,25,lean:250w/k2/rerank16->2,,A09,L2,openai/gpt-oss-20b,0.0,954.3,1,0.000075,11992.2,0
+f8f5f7b8ff,slow_provider_naive_retry,stand-in,2026-11-12T10:36:55.622+00:00,739.2,739.3,ok,0,773,38,lean:250w/k2/rerank16->2,,A10,L2,openai/gpt-oss-20b,0.0,582.6,1,0.000069,10775.5,0
+158d7371d7,slow_provider_naive_retry,stand-in,2026-11-12T10:37:00.153+00:00,1180.6,1180.7,ok,0,907,53,lean:250w/k2/rerank16->2,,A11,L2,openai/gpt-oss-20b,0.0,935.5,1,0.000084,5321.4,0
+a786f56207,slow_provider_naive_retry,stand-in,2026-11-12T10:37:05.274+00:00,554.4,554.6,ok,0,834,62,lean:250w/k2/rerank16->2,,A12,L2,openai/gpt-oss-20b,0.0,306.2,1,0.000081,11077.4,0
+28410094eb,slow_provider_naive_retry,stand-in,2026-11-12T10:37:06.884+00:00,1385.0,1385.3,ok,0,1083,73,lean:250w/k2/rerank16->2,,A13,L2,openai/gpt-oss-20b,0.0,1122.6,1,0.000103,9962.8,0
+c38612cf74,slow_provider_naive_retry,stand-in,2026-11-12T10:37:20.194+00:00,4.9,5.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A14,L3,,0.0,,0,0.000000,12191.0,0
+e267500e0b,slow_provider_naive_retry,stand-in,2026-11-12T10:37:20.891+00:00,5.4,5.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A15,L3,,0.0,,0,0.000000,12310.8,0
+d28c6ca01d,slow_provider_naive_retry,stand-in,2026-11-12T10:37:22.898+00:00,5.2,5.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A16,L3,,0.1,,0,0.000000,10605.0,0
+b5a39a1ee8,slow_provider_naive_retry,stand-in,2026-11-12T10:37:23.048+00:00,8.4,8.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A17,L3,,0.0,,0,0.000000,10090.6,0
+210fbf9cc5,slow_provider_naive_retry,stand-in,2026-11-12T10:37:25.380+00:00,4.2,4.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A18,L3,,0.1,,0,0.000000,13286.0,0
+b5b356ecb7,slow_provider_naive_retry,stand-in,2026-11-12T10:37:29.305+00:00,5.3,5.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A19,L3,,0.0,,0,0.000000,5781.5,0
+4b71e8e75e,slow_provider_naive_retry,stand-in,2026-11-12T10:37:46.736+00:00,,5647.6,timeout,1,3193,111,medium_rerank:250w/k4/rerank16->4,,U01,L0,openai/gpt-oss-120b,0.0,5268.5,4,0.000522,5647.0,1
+59a86bd858,slow_provider_naive_retry,stand-in,2026-11-12T10:37:50.299+00:00,1978.1,1978.2,ok,0,2430,114,medium_rerank:250w/k4/rerank16->4,,U02,L0,openai/gpt-oss-120b,0.0,1161.9,3,0.000370,10538.8,0
+bbee35e941,slow_provider_naive_retry,stand-in,2026-11-12T10:37:51.219+00:00,2393.4,2393.6,ok,1,1137,89,medium_rerank:250w/k4/rerank16->4,,U03,L0,openai/gpt-oss-20b,0.1,1008.0,3,0.000112,10743.2,0
+a840c7af55,slow_provider_naive_retry,stand-in,2026-11-12T10:37:53.443+00:00,7487.8,7487.8,ok,0,1046,71,lean:250w/k2/rerank16->2,,U04,L2,openai/gpt-oss-20b,0.1,7250.9,1,0.000100,13642.7,0
+93023ff518,burst,stand-in,2026-11-12T10:39:00.983+00:00,1588.6,1588.7,ok,0,1538,88,medium_rerank:250w/k4/rerank16->4,,A01,L0,openai/gpt-oss-120b,0.1,1386.5,2,0.000260,9219.9,0
+ca7b037f53,burst,stand-in,2026-11-12T10:39:01.236+00:00,3209.2,3209.3,ok,0,2421,63,medium_rerank:250w/k4/rerank16->4,,A02,L0,openai/gpt-oss-120b,0.0,1486.2,3,0.000348,12694.7,0
+883e98c726,burst,stand-in,2026-11-12T10:39:01.481+00:00,1521.2,1521.4,ok,0,1822,63,medium_rerank:250w/k4/rerank16->4,,A03,L0,openai/gpt-oss-120b,0.0,1399.7,2,0.000286,7033.5,0
+4e4fc8a883,burst,stand-in,2026-11-12T10:39:01.725+00:00,3768.6,3769.3,rate_limited,1,882,32,medium_rerank:250w/k4/rerank16->4,,A04,L3,,0.0,,2,0.000076,4052.2,0
+97e1a4d0d4,burst,stand-in,2026-11-12T10:39:01.980+00:00,1696.0,1696.1,ok,0,872,57,lean:250w/k2/rerank16->2,,A05,L2,openai/gpt-oss-20b,0.0,1449.6,1,0.000082,13455.5,0
+d65e1a045a,burst,stand-in,2026-11-12T10:39:02.230+00:00,1573.9,1574.2,ok,0,670,98,lean:250w/k2/rerank16->2,,A06,L2,openai/gpt-oss-20b,0.0,1167.4,1,0.000080,13379.8,0
+c29f41975c,burst,stand-in,2026-11-12T10:39:02.474+00:00,1120.1,1120.4,ok,0,1008,82,lean:250w/k2/rerank16->2,,A07,L2,openai/gpt-oss-20b,0.0,795.5,1,0.000100,13195.9,0
+2b7862386e,burst,stand-in,2026-11-12T10:39:02.738+00:00,5.0,5.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A08,L3,,0.0,,0,0.000000,7658.4,0
+0c3f5492fc,burst,stand-in,2026-11-12T10:39:02.985+00:00,2.7,2.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A09,L3,,0.0,,0,0.000000,8544.3,0
+0af76f69b9,burst,stand-in,2026-11-12T10:39:03.227+00:00,4.9,5.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A10,L3,,0.0,,0,0.000000,10044.0,0
+59288e1e05,burst,stand-in,2026-11-12T10:39:03.478+00:00,5.2,5.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A11,L3,,0.0,,0,0.000000,9978.0,0
+b7f17716fd,burst,stand-in,2026-11-12T10:39:03.725+00:00,3.5,3.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A12,L3,,0.0,,0,0.000000,13987.1,0
+b380da7bec,burst,stand-in,2026-11-12T10:39:03.983+00:00,5.6,5.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A13,L3,,0.0,,0,0.000000,13539.5,0
+4359780826,burst,stand-in,2026-11-12T10:39:04.236+00:00,1177.2,1177.4,ok,0,683,59,lean:250w/k2/rerank16->2,,A14,L2,openai/gpt-oss-20b,0.0,955.2,1,0.000069,12839.2,0
+078160259d,burst,stand-in,2026-11-12T10:39:04.477+00:00,5.2,5.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A15,L3,,0.0,,0,0.000000,7273.6,0
+b19ece2b5e,burst,stand-in,2026-11-12T10:39:04.731+00:00,5.0,5.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A16,L3,,0.0,,0,0.000000,4059.9,0
+1628a9c911,burst,stand-in,2026-11-12T10:39:04.984+00:00,5.5,5.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A17,L3,,0.1,,0,0.000000,5893.6,0
+45915da8a1,burst,stand-in,2026-11-12T10:39:05.224+00:00,5.5,6.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A18,L3,,0.0,,0,0.000000,13586.6,0
+8fc3daf0ff,burst,stand-in,2026-11-12T10:39:05.487+00:00,4.6,7.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A19,L3,,0.0,,0,0.000000,10611.0,0
+984893a7cd,burst,stand-in,2026-11-12T10:39:05.725+00:00,5.1,5.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U01,L3,,0.0,,0,0.000000,8751.5,0
+b3de903338,burst,stand-in,2026-11-12T10:39:05.981+00:00,4.3,4.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U02,L3,,0.0,,0,0.000000,13574.0,0
+b286f299b3,burst,stand-in,2026-11-12T10:39:06.232+00:00,562.0,562.1,ok,0,715,59,lean:250w/k2/rerank16->2,,U03,L2,openai/gpt-oss-20b,0.0,315.4,1,0.000071,8912.0,0
+73864f246c,burst,stand-in,2026-11-12T10:39:06.479+00:00,6.4,6.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U04,L3,,0.0,,0,0.000000,8578.1,0
+02bc82a45c,burst,stand-in,2026-11-12T10:39:06.727+00:00,10.1,10.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U05,L3,,0.0,,0,0.000000,12180.6,0
+892fc9425b,burst,stand-in,2026-11-12T10:39:06.990+00:00,2.8,3.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U06,L3,,0.0,,0,0.000000,4247.5,0
+6dc119fdbd,burst,stand-in,2026-11-12T10:39:07.235+00:00,6.1,6.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U07,L3,,0.0,,0,0.000000,13113.2,0
+023122f7a0,burst,stand-in,2026-11-12T10:39:07.488+00:00,5.1,5.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A01,L3,,0.0,,0,0.000000,9665.9,0
+887e1a7236,burst,stand-in,2026-11-12T10:39:07.734+00:00,5.6,5.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A02,L3,,0.0,,0,0.000000,11109.9,0
+8bfcbfa1a2,burst,stand-in,2026-11-12T10:39:07.980+00:00,5.3,5.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A03,L3,,0.0,,0,0.000000,13472.0,0
+3fe977f664,burst,stand-in,2026-11-12T10:39:08.233+00:00,4.9,5.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A04,L3,,0.0,,0,0.000000,13774.1,0
+5f58515a36,burst,stand-in,2026-11-12T10:39:08.474+00:00,5.7,6.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A05,L3,,0.0,,0,0.000000,10857.2,0
+0dabfc2a3e,burst,stand-in,2026-11-12T10:39:08.724+00:00,4.8,4.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A06,L3,,0.0,,0,0.000000,11994.5,0
+5d1f52b573,burst,stand-in,2026-11-12T10:39:08.978+00:00,3.9,4.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A07,L3,,0.1,,0,0.000000,4185.1,0
+b1b61d8e89,burst,stand-in,2026-11-12T10:39:09.225+00:00,4.7,4.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A08,L3,,0.0,,0,0.000000,12717.1,0
+210c062a2e,burst,stand-in,2026-11-12T10:39:09.477+00:00,5.0,5.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A09,L3,,0.0,,0,0.000000,10315.7,0
+51f99e72b5,burst,stand-in,2026-11-12T10:39:09.729+00:00,5.2,5.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A10,L3,,0.0,,0,0.000000,13004.4,0
+523b0246e1,burst,stand-in,2026-11-12T10:39:09.981+00:00,5.5,5.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A11,L3,,0.0,,0,0.000000,8904.0,0
+2d5e07eab8,burst,stand-in,2026-11-12T10:39:10.231+00:00,4.9,5.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A12,L3,,0.0,,0,0.000000,9866.5,0
+30ea5e1339,burst,stand-in,2026-11-12T10:39:10.479+00:00,3.9,4.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A13,L3,,0.0,,0,0.000000,6035.9,0
+b8fe49dfdf,burst,stand-in,2026-11-12T10:39:10.728+00:00,2.2,2.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A14,L3,,0.0,,0,0.000000,6031.6,0
+c829ff0f19,burst,stand-in,2026-11-12T10:39:19.133+00:00,7.5,8.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A15,L3,,0.0,,0,0.000000,4059.8,0
+fea402376d,burst,stand-in,2026-11-12T10:39:42.714+00:00,4.9,5.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A16,L3,,0.0,,0,0.000000,5861.9,0
+5f8848f844,burst,stand-in,2026-11-12T10:39:56.571+00:00,6057.5,6057.7,ok,0,1956,32,medium_rerank:250w/k4/rerank16->4,,A17,L1,openai/gpt-oss-120b,0.0,5931.6,1,0.000313,8817.9,0
+3be351db93,burst,stand-in,2026-11-12T10:40:24.354+00:00,2796.5,2796.7,ok,1,2289,130,medium_rerank:250w/k4/rerank16->4,,A18,L0,openai/gpt-oss-120b,0.0,1876.6,4,0.000353,9183.1,0
+f28e19aabf,burst_naive_retry,stand-in,2026-11-12T10:41:27.213+00:00,1891.2,1891.4,ok,0,2007,90,medium_rerank:250w/k4/rerank16->4,,A01,L0,openai/gpt-oss-120b,0.1,1257.5,3,0.000295,7705.6,0
+5ded3adfcc,burst_naive_retry,stand-in,2026-11-12T10:41:27.463+00:00,1457.8,1457.9,ok,0,2036,61,medium_rerank:250w/k4/rerank16->4,,A02,L0,openai/gpt-oss-120b,0.0,1335.1,2,0.000319,13501.9,0
+4cfa948cd5,burst_naive_retry,stand-in,2026-11-12T10:41:27.718+00:00,1319.5,1319.7,ok,0,2283,65,medium_rerank:250w/k4/rerank16->4,,A03,L0,openai/gpt-oss-120b,0.0,839.1,3,0.000321,6000.5,0
+82f6d662e9,burst_naive_retry,stand-in,2026-11-12T10:41:27.959+00:00,1655.2,1655.3,ok,1,1396,116,medium_rerank:250w/k4/rerank16->4,,A04,L0,openai/gpt-oss-20b,0.0,821.7,3,0.000140,6969.7,0
+53885c879c,burst_naive_retry,stand-in,2026-11-12T10:41:28.215+00:00,1880.1,1880.4,rate_limited,1,199,36,medium_rerank:250w/k4/rerank16->4,,A05,L3,,0.0,,1,0.000026,8181.2,0
+77e2d333db,burst_naive_retry,stand-in,2026-11-12T10:41:28.459+00:00,543.9,544.5,rate_limited,1,0,0,lean:250w/k2/rerank16->2,,A06,L3,,0.0,,1,0.000000,6373.1,0
+3faa5ba9a8,burst_naive_retry,stand-in,2026-11-12T10:41:28.722+00:00,1194.6,1194.8,ok,0,1008,82,lean:250w/k2/rerank16->2,,A07,L2,openai/gpt-oss-20b,0.0,842.5,1,0.000100,7013.8,0
+41b2c2ad5d,burst_naive_retry,stand-in,2026-11-12T10:41:28.969+00:00,4.9,5.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A08,L3,,0.0,,0,0.000000,12407.6,0
+2d43750c61,burst_naive_retry,stand-in,2026-11-12T10:41:29.210+00:00,4.6,4.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A09,L3,,0.0,,0,0.000000,8897.2,0
+267e3747a9,burst_naive_retry,stand-in,2026-11-12T10:41:29.457+00:00,4.9,5.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A10,L3,,0.0,,0,0.000000,4831.8,0
+eb7717d3cd,burst_naive_retry,stand-in,2026-11-12T10:41:29.720+00:00,5.5,6.1,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A11,L3,,0.0,,0,0.000000,12471.7,0
+8f3eac8a07,burst_naive_retry,stand-in,2026-11-12T10:41:29.965+00:00,4.1,4.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A12,L3,,0.0,,0,0.000000,6274.2,0
+918e360be9,burst_naive_retry,stand-in,2026-11-12T10:41:30.211+00:00,5.1,5.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A13,L3,,0.0,,0,0.000000,11892.2,0
+f853ba759c,burst_naive_retry,stand-in,2026-11-12T10:41:30.456+00:00,1239.3,1239.5,ok,0,683,59,lean:250w/k2/rerank16->2,,A14,L2,openai/gpt-oss-20b,0.0,1013.4,1,0.000069,4604.1,0
+87fac90d97,burst_naive_retry,stand-in,2026-11-12T10:41:30.709+00:00,5.0,5.3,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A15,L3,,0.0,,0,0.000000,10591.0,0
+d182e5f77b,burst_naive_retry,stand-in,2026-11-12T10:41:30.960+00:00,5.9,6.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A16,L3,,0.0,,0,0.000000,9901.5,0
+c75369c493,burst_naive_retry,stand-in,2026-11-12T10:41:31.208+00:00,5.1,5.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A17,L3,,0.0,,0,0.000000,10068.8,0
+3cd0c2dcae,burst_naive_retry,stand-in,2026-11-12T10:41:31.464+00:00,5.4,5.8,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A18,L3,,0.0,,0,0.000000,13811.7,0
+8037e542da,burst_naive_retry,stand-in,2026-11-12T10:41:31.710+00:00,5.2,5.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A19,L3,,0.0,,0,0.000000,11428.1,0
+5739cda23a,burst_naive_retry,stand-in,2026-11-12T10:41:31.965+00:00,5.1,5.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U01,L3,,0.0,,0,0.000000,7319.8,0
+558dc2a292,burst_naive_retry,stand-in,2026-11-12T10:41:32.208+00:00,4.3,4.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U02,L3,,0.0,,0,0.000000,8567.4,0
+5c4a7ec610,burst_naive_retry,stand-in,2026-11-12T10:41:32.464+00:00,15.8,16.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U03,L3,,0.1,,0,0.000000,4637.5,0
+b4b8d5a5f1,burst_naive_retry,stand-in,2026-11-12T10:41:32.715+00:00,3.2,3.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U04,L3,,0.0,,0,0.000000,10290.4,0
+c939806a16,burst_naive_retry,stand-in,2026-11-12T10:41:32.972+00:00,6.8,7.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U05,L3,,0.0,,0,0.000000,8025.7,0
+d6574c22d9,burst_naive_retry,stand-in,2026-11-12T10:41:33.208+00:00,4.6,4.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U06,L3,,0.0,,0,0.000000,4998.0,0
+8e8f816ed4,burst_naive_retry,stand-in,2026-11-12T10:41:33.469+00:00,9.6,9.9,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,U07,L3,,0.0,,0,0.000000,10346.9,0
+b7ebcaca41,burst_naive_retry,stand-in,2026-11-12T10:41:33.712+00:00,4.5,4.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A01,L3,,0.0,,0,0.000000,11642.9,0
+377fd10dd5,burst_naive_retry,stand-in,2026-11-12T10:41:33.967+00:00,4.9,5.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A02,L3,,0.0,,0,0.000000,4876.9,0
+66773641d3,burst_naive_retry,stand-in,2026-11-12T10:41:34.220+00:00,4.2,4.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A03,L3,,0.0,,0,0.000000,11120.5,0
+b98f7d0846,burst_naive_retry,stand-in,2026-11-12T10:41:34.458+00:00,4.7,5.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A04,L3,,0.0,,0,0.000000,10799.5,0
+d65f997b70,burst_naive_retry,stand-in,2026-11-12T10:41:34.712+00:00,4.9,5.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A05,L3,,0.0,,0,0.000000,5052.3,0
+02cc29c981,burst_naive_retry,stand-in,2026-11-12T10:41:34.956+00:00,5.0,5.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A06,L3,,0.0,,0,0.000000,11301.6,0
+281a016e94,burst_naive_retry,stand-in,2026-11-12T10:41:35.207+00:00,4.7,5.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A07,L3,,0.0,,0,0.000000,5045.1,0
+908109643e,burst_naive_retry,stand-in,2026-11-12T10:41:35.457+00:00,5.0,5.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A08,L3,,0.0,,0,0.000000,4198.2,0
+625bd581a6,burst_naive_retry,stand-in,2026-11-12T10:41:35.710+00:00,4.4,4.6,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A09,L3,,0.0,,0,0.000000,12027.7,0
+8af2d1a5fb,burst_naive_retry,stand-in,2026-11-12T10:41:35.956+00:00,4.7,5.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A10,L3,,0.0,,0,0.000000,13008.4,0
+cae58bdb15,burst_naive_retry,stand-in,2026-11-12T10:41:36.209+00:00,5.1,5.4,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A11,L3,,0.0,,0,0.000000,8994.4,0
+73e8fc6e74,burst_naive_retry,stand-in,2026-11-12T10:41:36.460+00:00,4.2,4.5,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A12,L3,,0.0,,0,0.000000,13679.7,0
+8fb1620425,burst_naive_retry,stand-in,2026-11-12T10:41:36.709+00:00,4.8,5.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A13,L3,,0.0,,0,0.000000,9991.0,0
+9fbb53c3c8,burst_naive_retry,stand-in,2026-11-12T10:41:36.964+00:00,3.8,4.0,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A14,L3,,0.0,,0,0.000000,12818.7,0
+573d8e47d9,burst_naive_retry,stand-in,2026-11-12T10:41:45.361+00:00,4.9,5.2,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A15,L3,,0.0,,0,0.000000,8451.3,0
+087dbac0fc,burst_naive_retry,stand-in,2026-11-12T10:42:08.938+00:00,5.4,5.7,rate_limited,0,0,0,lean:250w/k2/rerank16->2,,A16,L3,,0.0,,0,0.000000,8370.7,0
+de626c8290,burst_naive_retry,stand-in,2026-11-12T10:42:22.797+00:00,5931.8,5932.0,ok,0,1956,32,medium_rerank:250w/k4/rerank16->4,,A17,L1,openai/gpt-oss-120b,0.0,5784.5,1,0.000313,13274.9,0
+6cf3f82c93,burst_naive_retry,stand-in,2026-11-12T10:42:50.587+00:00,3645.1,3645.2,ok,0,2289,130,medium_rerank:250w/k4/rerank16->4,,A18,L0,openai/gpt-oss-120b,0.0,2688.5,3,0.000353,9691.3,0

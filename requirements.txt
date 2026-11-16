@@ -1,0 +1,4 @@
+aiohttp>=3.9
+pypdf>=4.0
+matplotlib>=3.7   # latency chart in analyze.py
+reportlab>=4.0   # only for tests/make_fixture.py
